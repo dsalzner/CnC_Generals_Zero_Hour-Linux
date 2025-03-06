@@ -37,8 +37,8 @@
 #include "Common/AudioEventRTS.h"
 #include "GameClient/ParticleSys.h"
 #include "W3DDevice/GameClient/Module/W3DModelDraw.h"
-#include "WW3D2/HAnim.h"
-#include "WW3D2/RendObj.h"
+#include "WW3D2/hanim.h"
+#include "WW3D2/rendobj.h"
 #include "WW3D2/Part_Emt.h"
 
 //-------------------------------------------------------------------------------------------------
