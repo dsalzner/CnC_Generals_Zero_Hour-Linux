@@ -49,7 +49,7 @@
 #include <mmsystem.h>
 #include <assert.h>
 
-#include <wpaudio/time.h>
+//#include <wpaudio/time.h>
 
 /*****************************************************************************
 **          Externals                                                       **

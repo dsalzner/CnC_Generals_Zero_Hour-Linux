@@ -43,17 +43,17 @@
 **            Includes                                                      **
 *****************************************************************************/
 
-#include <wpaudio/altypes.h>
+//#include <wpaudio/altypes.h>
 #include <stdio.h>
 #include <string.h>
 
-#include <wpaudio/memory.h>
-#include <wpaudio/list.h>
-#include <wpaudio/lock.h>
-#include <wpaudio/time.h>
-#include <wpaudio/attributes.h>
-#include <wpaudio/device.h>
-#include <wpaudio/channel.h>
+//#include <wpaudio/memory.h>
+//#include <wpaudio/list.h>
+//#include <wpaudio/lock.h>
+//#include <wpaudio/time.h>
+//#include <wpaudio/attributes.h>
+//#include <wpaudio/device.h>
+//#include <wpaudio/channel.h>
 
 // 'assignment within condition expression'.
 #pragma warning(disable : 4706)

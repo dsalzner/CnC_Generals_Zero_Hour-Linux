@@ -50,15 +50,15 @@
 #include <string.h>
 
 
-#include <wpaudio/altypes.h>
-#include <wpaudio/cache.h>
-#include <wpaudio/events.h>
-#include <wpaudio/level.h>
-#include <wpaudio/profiler.h>
-#include <wpaudio/channel.h>
-#include <wpaudio/device.h>
-#include <wpaudio/attributes.h>
-#include <wpaudio/handle.h>
+//#include <wpaudio/altypes.h>
+//#include <wpaudio/cache.h>
+//#include <wpaudio/events.h>
+//#include <wpaudio/level.h>
+//#include <wpaudio/profiler.h>
+//#include <wpaudio/channel.h>
+//#include <wpaudio/device.h>
+//#include <wpaudio/attributes.h>
+//#include <wpaudio/handle.h>
 
 // 'assignment within condition expression'.
 #pragma warning(disable : 4706)

@@ -40,7 +40,7 @@
 #ifndef READLINE_H
 #define READLINE_H
 
-#include	"straw.h"
+#include	"STRAW.H"
 #include	"wwfile.h"
 #include <wchar.h>
 

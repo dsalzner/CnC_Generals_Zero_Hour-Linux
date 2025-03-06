@@ -57,7 +57,7 @@
 #include "GameClient/GadgetRadioButton.h"
 #include "GameClient/GadgetProgressBar.h"
 #include "GameClient/GadgetSlider.h"
-#include "GameClient/GadgetListbox.h"
+#include "GameClient/GadgetListBox.h"
 #include "GameClient/GadgetComboBox.h"
 #include "GameClient/GadgetTabControl.h"
 #include "GameClient/GadgetTextEntry.h"

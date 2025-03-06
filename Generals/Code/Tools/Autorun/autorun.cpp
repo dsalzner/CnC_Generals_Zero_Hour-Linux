@@ -77,7 +77,7 @@
 #include <dos.h>
 #include <errno.h>
 #include <fcntl.h>
-#include <fstream.h>
+#include <fstream>
 #include <io.h>
 #include <locale.h>
 #include <math.h>

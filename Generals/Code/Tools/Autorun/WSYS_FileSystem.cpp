@@ -39,7 +39,7 @@
 //         Includes                                                      
 //----------------------------------------------------------------------------
 
-#include "wsys_FileSystem.h"
+#include "WSYS_FileSystem.h"
 
 #include "wsys_StdFileSystem.h"
 

@@ -44,7 +44,7 @@
 #include "windows.h"
 #include <stdio.h>
 #include <sys/stat.h>
-#include "wnd_file.h"
+#include "Wnd_File.h"
 #include "winfix.h"
 //#include "autorun.h"
 
@@ -1009,7 +1009,7 @@ int StandardFileClass::Flush ( void )
 
 
 //------------------------------------------------------------------------------
-// non-class public functions from wnd_file.h
+// non-class public functions from Wnd_File.h
 //------------------------------------------------------------------------------
 
 #if( SUPPORT_HANDLES )

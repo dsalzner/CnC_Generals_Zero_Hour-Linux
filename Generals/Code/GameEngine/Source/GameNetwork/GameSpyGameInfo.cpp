@@ -32,7 +32,7 @@
 #include "Common/Player.h"
 #include "Common/PlayerList.h"
 #include "Common/RandomValue.h"
-#include "Common/Scorekeeper.h"
+#include "Common/ScoreKeeper.h"
 #include "GameClient/Shell.h"
 #include "GameClient/GameText.h"
 #include "GameNetwork/GameSpy/PeerDefs.h"

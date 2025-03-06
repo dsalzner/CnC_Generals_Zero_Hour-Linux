@@ -36,13 +36,13 @@
 
 
 #include "always.h"
-#include <Windows.H>
-#include "WWAudio.H"
-#include "WWDebug.H"
-#include "Utils.H"
-#include "RealCRC.H"
-#include "SoundBuffer.H"
-#include "AudibleSound.H"
+#include <windows.h>
+#include "WWAudio.h"
+#include "wwdebug.h"
+#include "Utils.h"
+#include "realcrc.h"
+#include "SoundBuffer.h"
+#include "AudibleSound.h"
 #include "Sound3D.H"
 #include "RawFile.H"
 #include "WW3D.H"

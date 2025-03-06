@@ -34,7 +34,7 @@
  * Functions:                                                                                  * 
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
-#include "MeshDeformSet.H"
+#include "MeshDeformSet.h"
 #include "Util.H"
 #include "MeshDeformSaveSet.H"
 #include "MeshBuild.H"

@@ -40,8 +40,8 @@
 #ifndef XPIPE_H
 #define XPIPE_H
 
-#include	"buff.h"
-#include	"pipe.h"
+#include	"BUFF.H"
+#include	"PIPE.H"
 #include	"wwfile.h"
 
 /*

@@ -35,7 +35,7 @@
 //
 // Module:     IO
 //
-// File name:  wsys/RAMFile.h
+// File name:  wsys/RAMfile.h
 //
 // Created:    11/08/01
 //
@@ -52,7 +52,7 @@
 //           Includes                                                      
 //----------------------------------------------------------------------------
 
-#include "Common/File.h"
+#include "Common/file.h"
 
 //----------------------------------------------------------------------------
 //           Forward References

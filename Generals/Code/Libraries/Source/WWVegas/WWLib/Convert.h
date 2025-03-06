@@ -42,7 +42,7 @@
 
 #include	"blitter.h"
 #include	"palette.h"
-#include	"surface.h"
+#include	"Surface.h"
 
 /*
 **	Flags used to fetch the appropriate blitter object.

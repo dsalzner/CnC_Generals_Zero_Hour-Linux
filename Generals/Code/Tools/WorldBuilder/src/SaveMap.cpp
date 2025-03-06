@@ -19,7 +19,7 @@
 // SaveMap.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "StdAfx.h"
 #include "worldbuilder.h"
 #include "SaveMap.h"
 #include "Common/GlobalData.h"

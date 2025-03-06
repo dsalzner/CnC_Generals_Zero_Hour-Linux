@@ -44,13 +44,13 @@
 #include <windows.h>
 #include <mmreg.h>
 
-#include <wpaudio/thread.h>
-#include <wpaudio/memory.h>
-#include <wpaudio/Source.h>
-#include <wsys/File.h>
-#include <wpaudio/device.h>
-#include <wpaudio/profiler.h>
-#include <wpaudio/win32.h>
+//#include <wpaudio/thread.h>
+//#include <wpaudio/memory.h>
+//#include <wpaudio/source.h>
+//#include <wsys/file.h>
+//#include <wpaudio/device.h>
+//#include <wpaudio/profiler.h>
+//#include <wpaudio/win32.h>
 
 // 'assignment within condition expression'.
 #pragma warning(disable : 4706)

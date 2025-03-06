@@ -19,7 +19,7 @@
 // TeamIdentity.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "StdAfx.h"
 #include "worldbuilder.h"
 #include "TeamIdentity.h"
 #include "EditParameter.h"

@@ -24,7 +24,8 @@
 #include "Compression.h"
 #include "LZHCompress/NoxCompress.h"
 extern "C" {
-#include "ZLib/zlib.h"
+//#include "ZLib/zlib.h"
+#include "zlib.h"
 }
 #include "EAC/codex.h"
 #include "EAC/btreecodex.h"

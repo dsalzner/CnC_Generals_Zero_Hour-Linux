@@ -46,14 +46,14 @@
 #include <string.h>
 #include <memory.h>
 
-#include <wpaudio/altypes.h>						//  always include this header first 
-#include <wpaudio/memory.h>
-#include <wpaudio/list.h>
-#include <wpaudio/source.h>
-#include <wpaudio/cache.h>
-#include <wpaudio/profiler.h>
+//#include <wpaudio/altypes.h>						//  always include this header first 
+//#include <wpaudio/memory.h>
+//#include <wpaudio/list.h>
+//#include <wpaudio/source.h>
+//#include <wpaudio/cache.h>
+//#include <wpaudio/profiler.h>
 
-#include <wsys/File.h>
+//#include <wsys/file.h>
 
 // 'assignment within condition expression'.
 #pragma warning(disable : 4706)

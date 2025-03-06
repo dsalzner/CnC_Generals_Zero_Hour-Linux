@@ -26,7 +26,7 @@
 
 #define WIN32_LEAN_AND_MEAN  // only bare bones windows stuff wanted
 
-#include "Common/CRC.h"
+#include "Common/crc.h"
 #include "Common/GameState.h"
 #include "Common/Registry.h"
 #include "GameNetwork/LANAPI.h"

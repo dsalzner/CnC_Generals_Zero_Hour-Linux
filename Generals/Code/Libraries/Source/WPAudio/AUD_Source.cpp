@@ -47,11 +47,11 @@
 #include <stdio.h>
 #include <string.h>
 
-#include <wpaudio/altypes.h>
-#include <wpaudio/memory.h>
-#include <wpaudio/time.h>
-#include <wpaudio/source.h>
-#include <wsys/file.h>
+//#include <wpaudio/altypes.h>
+//#include <wpaudio/memory.h>
+//#include <wpaudio/time.h>
+//#include <wpaudio/source.h>
+//#include <wsys/file.h>
 
 //#include "asimp3\mss.h"
 //#include "asimp3\mp3dec.h"

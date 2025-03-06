@@ -22,7 +22,7 @@
 #define DEFINE_TIME_OF_DAY_NAMES
 #define DEFINE_WEATHER_NAMES
 
-#include "stdafx.h"
+#include "StdAfx.h"
 #include "worldbuilder.h"
 #include "MapSettings.h"
 #include "Common\GlobalData.h"

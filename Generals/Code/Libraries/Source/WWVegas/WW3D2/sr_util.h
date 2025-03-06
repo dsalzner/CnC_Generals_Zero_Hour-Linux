@@ -47,7 +47,7 @@
 #include "matrix3d.h"
 #include "vector3i.h"
 
-#include <srVector3i.hpp>
+//#include <srVector3i.hpp>
 #include <srVector3.hpp>
 #include <srVector2.hpp>
 #include <srMatrix4x3.hpp>

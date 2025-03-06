@@ -22,7 +22,7 @@
  *                                                                                             * 
  *                 Project Name : Command & Conquer                                            * 
  *                                                                                             * 
- *                     $Archive:: /G/wwlib/wwfont.h                                           $* 
+ *                     $Archive:: /G/wwlib/wwFONT.H                                           $* 
  *                                                                                             * 
  *                      $Author:: Scott_b                                                     $*
  *                                                                                             * 
@@ -37,8 +37,8 @@
 #ifndef WWFONT_H
 #define WWFONT_H
 
-#include	"font.h"
-#include	"surface.h"
+#include	"FONT.H"
+#include	"Surface.h"
 
 class ConvertClass;
 

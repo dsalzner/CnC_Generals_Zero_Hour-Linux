@@ -22,9 +22,9 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "Lib/basetype.h"
-#include "Noxcompress.h"
-#include "CompLibHeader/lzhl.h"
+#include "Lib/BaseType.h"
+#include "NoxCompress.h"
+#include "LZHL.h"
 
 #ifdef _INTERNAL
 // for occasional debugging...

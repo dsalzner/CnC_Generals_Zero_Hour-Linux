@@ -19,7 +19,7 @@
 // addplayerdialog.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "StdAfx.h"
 #include "worldbuilder.h"
 #include "addplayerdialog.h"
 #include "Common/WellKnownKeys.h"

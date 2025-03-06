@@ -42,7 +42,7 @@
 
 #include	"always.h"
 #include	"iff.h"
-#include	"lcw.h"
+#include	"LCW.H"
 #include	<string.h>
 
 

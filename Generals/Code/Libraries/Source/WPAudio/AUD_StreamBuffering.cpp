@@ -45,11 +45,11 @@
 
 #include <memory.h>
 
-#include <wpaudio/altypes.h>
-#include <wpaudio/list.h>
-#include <wpaudio/StreamBuffering.h>
-#include <wpaudio/memory.h>
-#include <wsys/file.h>
+//#include <wpaudio/altypes.h>
+//#include <wpaudio/list.h>
+//#include <wpaudio/StreamBuffering.h>
+//#include <wpaudio/memory.h>
+//#include <wsys/file.h>
 
 // 'assignment within condition expression'.
 #pragma warning(disable : 4706)
@@ -1219,7 +1219,7 @@ STM_ACCESS*			STM_AccessUpStreamAccessor ( STM_ACCESS *access )
 
 #ifdef _DEBUG
 
-#include <wpaudio/time.h>
+//#include <wpaudio/time.h>
 
 /******************************************************************/
 /*                                                                */

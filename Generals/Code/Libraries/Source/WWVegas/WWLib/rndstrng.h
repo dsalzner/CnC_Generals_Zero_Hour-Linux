@@ -40,7 +40,7 @@
 #ifndef RNDSTRNG_H
 #define RNDSTRNG_H
 
-#include	"vector.h"
+#include	"Vector.H"
 #include	"random.h"
 
 class	StringClass;

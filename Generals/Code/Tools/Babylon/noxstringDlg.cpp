@@ -20,7 +20,7 @@
 // noxstringDlg.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "StdAfx.h"
 #include "noxstring.h"
 #include "noxstringDlg.h"
 #include "VIEWDBSII.h"

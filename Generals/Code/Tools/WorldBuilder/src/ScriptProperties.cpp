@@ -19,7 +19,7 @@
 // ScriptProperties.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "StdAfx.h"
 #include "worldbuilder.h"
 #include "ScriptProperties.h"
 #include "GameLogic/Scripts.h"

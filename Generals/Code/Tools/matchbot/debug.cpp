@@ -20,7 +20,7 @@
 // Minmal debug info
 // Author: Matthew D. Campbell, Sept 2002
 
-#include <wdebug.h>
+#include <NoxCompress.h>
 #include "debug.h"
 #include <cstdio>
 

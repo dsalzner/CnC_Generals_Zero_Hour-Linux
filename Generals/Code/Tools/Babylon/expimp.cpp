@@ -20,7 +20,7 @@
 // expimp.cpp
 //
 
-#include "stdAfx.h"
+#include "StdAfx.h"
 #include "transDB.h"
 #include "XLStuff.h"
 #include "Noxstringdlg.h"

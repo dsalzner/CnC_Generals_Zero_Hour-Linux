@@ -19,7 +19,7 @@
 // wbview.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "StdAfx.h"
 #include "CUndoable.h"
 #include "worldbuilder.h"
 #include "worldbuilderdoc.h"

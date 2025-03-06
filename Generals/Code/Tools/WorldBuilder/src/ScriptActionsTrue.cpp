@@ -19,7 +19,7 @@
 // ScriptActionsTrue.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "StdAfx.h"
 #include "worldbuilder.h"
 #include "ScriptActionsTrue.h"
 #include "GameLogic/Scripts.h"

@@ -19,7 +19,7 @@
 // OpenMap.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "StdAfx.h"
 #include "worldbuilder.h"
 #include "OpenMap.h"
 #include "Common/GlobalData.h"

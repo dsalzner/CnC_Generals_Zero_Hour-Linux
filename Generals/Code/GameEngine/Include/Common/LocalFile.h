@@ -35,7 +35,7 @@
 //
 // Module:     IO
 //
-// File name:  LocalFile.h
+// File name:  Localfile.h
 //
 // Created:    4/23/01
 //
@@ -52,7 +52,7 @@
 //           Includes                                                      
 //----------------------------------------------------------------------------
 
-#include "Common/File.h"
+#include "Common/file.h"
 
 // srj sez: this was purely an experiment in optimization.
 // at the present time, it doesn't appear to be a good one.

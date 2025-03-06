@@ -49,8 +49,8 @@
 // USER INCLUDES //////////////////////////////////////////////////////////////
 #include "Common/Debug.h"
 #include "W3DDevice/GameClient/W3DGameFont.h"
-#include "WW3D2/WW3D.h"
-#include "WW3D2/AssetMgr.h"
+#include "WW3D2/ww3d.h"
+#include "WW3D2/assetmgr.h"
 #include "WW3D2/Render2DSentence.h"
 #include "GameClient/GlobalLanguage.h"
 

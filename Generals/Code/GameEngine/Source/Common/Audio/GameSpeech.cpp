@@ -37,14 +37,15 @@
 //         Includes                                                      
 //----------------------------------------------------------------------------
 
-#include "wpaudio/attributes.h"
+//#include "wpaudio/attributes.h"
 
-#include "wsys/File.h"
-#include "wsys/List.h"
-#include "wpaudio/Streamer.h"
-#include "wpaudio/Time.h"
-#include "wpaudio/Device.h"
-#include "wpaudio/Streamer.h"
+//#include "wsys/file.h"
+//#include "wsys/List.h"
+
+//#include "wpaudio/streamer.h"
+//#include "wpaudio/time.h"
+//#include "wpaudio/device.h"
+//#include "wpaudio/streamer.h"
 
 #define DEFINE_DLG_EVENT_PRIORITY_NAMES
 #include "Common/GameAudio.h"

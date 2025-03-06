@@ -45,11 +45,11 @@
 
 #include <string.h>
 
-#include <wpaudio/altypes.h>
-#include <wpaudio/memory.h>
-#include <wpaudio/list.h>
-#include <wpaudio/channel.h>
-#include <wpaudio/device.h>
+//#include <wpaudio/altypes.h>
+//#include <wpaudio/memory.h>
+//#include <wpaudio/list.h>
+//#include <wpaudio/channel.h>
+//#include <wpaudio/device.h>
 
 // 'assignment within condition expression'.
 #pragma warning(disable : 4706)

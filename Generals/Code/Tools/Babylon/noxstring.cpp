@@ -19,7 +19,7 @@
 // noxstring.cpp : Defines the class behaviors for the application.
 //
 
-#include "stdafx.h"
+#include "StdAfx.h"
 #include "noxstring.h"
 #include "noxstringDlg.h"
 #include "xlstuff.h"

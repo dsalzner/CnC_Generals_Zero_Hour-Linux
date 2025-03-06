@@ -40,8 +40,8 @@
 #ifndef XSTRAW_H
 #define XSTRAW_H
 
-#include	"buff.h"
-#include	"straw.h"
+#include	"BUFF.H"
+#include	"STRAW.H"
 #include	"wwfile.h"
 #include	<stddef.h>
 

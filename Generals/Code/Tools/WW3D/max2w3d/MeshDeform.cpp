@@ -36,7 +36,7 @@
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 
-#include "MeshDeform.H"
+#include "MeshDeform.h"
 #include "MeshDeformData.H"
 #include "MeshDeformPanel.H"
 #include "MeshDeformUndo.H"

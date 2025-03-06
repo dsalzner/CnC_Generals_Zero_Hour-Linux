@@ -97,13 +97,13 @@
 //#define abs(x) (((x) < 0) ? -(x) : (x))
 //#endif
 
-#ifndef min
-#define min(x,y) (((x)<(y)) ? (x) : (y))
-#endif
+//#ifndef min
+//#define min(x,y) (((x)<(y)) ? (x) : (y))
+//#endif
 
-#ifndef max
-#define max(x,y) (((x)>(y)) ? (x) : (y))
-#endif
+//#ifndef max
+//#define max(x,y) (((x)>(y)) ? (x) : (y))
+//#endif
 
 #ifndef TRUE
 #define TRUE true
@@ -129,7 +129,7 @@ typedef bool							Bool;							//
 typedef __int64						Int64;							// 8 bytes 
 typedef unsigned __int64	UnsignedInt64;	  	// 8 bytes 
 
-#include "Lib/Trig.h"
+#include "Lib/trig.h"
 
 //-----------------------------------------------------------------------------
 typedef wchar_t WideChar;  ///< multi-byte character representations

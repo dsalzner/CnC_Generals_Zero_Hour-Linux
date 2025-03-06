@@ -19,7 +19,7 @@
 // TeamReinforcement.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "StdAfx.h"
 #include "worldbuilder.h"
 #include "TeamReinforcement.h"
 #include "EditParameter.h"

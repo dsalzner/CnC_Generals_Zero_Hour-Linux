@@ -19,7 +19,7 @@
 // wbview3d.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "StdAfx.h"
 #include "resource.h"
 #include "wwmath.h"
 #include "ww3d.h"
@@ -74,8 +74,8 @@
 #include "W3DDevice/Common/W3DConvert.h"
 #include "W3DDevice/GameClient/W3DShadow.h"
 #include "DrawObject.h"
-#include "common/MapObject.h"
-#include "common/GlobalData.h"
+#include "Common/MapObject.h"
+#include "Common/GlobalData.h"
 #include "ShadowOptions.h"
 #include "worldbuilder.h"
 #include "wbview3d.h"

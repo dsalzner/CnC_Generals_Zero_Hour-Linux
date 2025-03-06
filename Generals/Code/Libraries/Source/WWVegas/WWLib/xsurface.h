@@ -22,7 +22,7 @@
  *                                                                                             * 
  *                 Project Name : Command & Conquer                                            * 
  *                                                                                             * 
- *                     $Archive:: /G/wwlib/xsurface.h                                         $* 
+ *                     $Archive:: /G/wwlib/xSurface.h                                         $* 
  *                                                                                             * 
  *                      $Author:: Eric_c                                                      $*
  *                                                                                             * 
@@ -40,7 +40,7 @@
 #ifndef XSURFACE_H
 #define XSURFACE_H
 
-#include	"surface.h"
+#include	"Surface.h"
 
 /*
 **	This is a concrete (mostly) derived class that handles a surface. This layer presumes that

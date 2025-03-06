@@ -48,7 +48,7 @@
 #include "Common/GameMemory.h"
 #include "Common/GlobalData.h"
 #include "Common/NameKeyGenerator.h"
-#include "Resource.h"
+#include "resource.h"
 
 #include "Common/ThingFactory.h"
 #include "Common/FileSystem.h"

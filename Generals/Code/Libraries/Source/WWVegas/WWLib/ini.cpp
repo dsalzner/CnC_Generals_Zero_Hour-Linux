@@ -77,12 +77,12 @@
 #include	"b64pipe.h"
 #include	"b64straw.h"
 #include	"cstraw.h"
-#include	"ini.h"
+#include	"INI.h"
 #include	"readline.h"
 #include	"trim.h"
 #include	"win.h"
-#include	"xpipe.h"
-#include	"xstraw.h"
+#include	"XPIPE.H"
+#include	"XSTRAW.H"
 #include	<stdio.h>
 #ifdef _UNIX
 #include <ctype.h>
@@ -90,7 +90,7 @@
 #include "rawfile.h"
 #include "ffactory.h"
 
-// recently transferred from ini.h 
+// recently transferred from INI.h 
 #include "inisup.h"
 #include	"trect.h"
 #include	"wwfile.h"

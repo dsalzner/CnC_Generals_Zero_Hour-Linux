@@ -39,7 +39,7 @@
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 
-#include "FormClass.H"
+#include "FormClass.h"
 #include "Dllmain.H"
 
 // hard-coded resource id which VC special cases for MFC... >:-) 

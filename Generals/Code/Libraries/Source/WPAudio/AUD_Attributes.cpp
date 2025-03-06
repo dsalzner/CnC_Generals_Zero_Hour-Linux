@@ -43,9 +43,9 @@
 **            Includes                                                      **
 *****************************************************************************/
 
-#include <wpaudio/altypes.h>						
-#include <wpaudio/level.h>
-#include <wpaudio/attributes.h>
+//#include <wpaudio/altypes.h>						
+//#include <wpaudio/level.h>
+//#include <wpaudio/attributes.h>
 
 
 DBG_DECLARE_TYPE ( AudioAttribs )

@@ -34,7 +34,7 @@
 
 #include "mapper.h"
 #include "ww3d.h"
-#include "ini.h"
+#include "INI.h"
 #include "chunkio.h"
 #include "w3derr.h"
 #include "meshmatdesc.h"

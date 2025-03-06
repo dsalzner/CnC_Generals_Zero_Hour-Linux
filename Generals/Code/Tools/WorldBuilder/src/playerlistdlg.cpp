@@ -19,7 +19,7 @@
 // playerlistdlg.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "StdAfx.h"
 #include "worldbuilder.h"
 #include "playerlistdlg.h"
 #include "MapObjectProps.h"

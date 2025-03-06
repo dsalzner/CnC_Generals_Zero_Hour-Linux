@@ -55,7 +55,7 @@
 **	AUD_command           :   driver specific command                       **
 *****************************************************************************/
 
-#include <wpaudio/altypes.h>						/*	Always include this header first. */
+//#include <wpaudio/altypes.h>						/*	Always include this header first. */
 
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
@@ -72,21 +72,21 @@
 // #undef INITGUID  // see comment above
 #include <windows.h>
 
-#include "asimp3\mss.h"
-#include "asimp3\mp3dec.h"
+//#include "asimp3\mss.h"
+//#include "asimp3\mp3dec.h"
 
-#include <wpaudio/profiler.h>
-#include <wpaudio/device.h>
-#include <wpaudio/channel.h>
-#include <wpaudio/thread.h>
-#include <wpaudio/win32.h>
+//#include <wpaudio/profiler.h>
+//#include <wpaudio/device.h>
+//#include <wpaudio/channel.h>
+//#include <wpaudio/thread.h>
+//#include <wpaudio/win32.h>
 
 
 /*****************************************************************************
 **							  	  Includes									**
 *****************************************************************************/
 
-#include <wpaudio/driver.h>       	/* prototypes for driver code */
+//#include <wpaudio/driver.h>       	/* prototypes for driver code */
 
 
 /*****************************************************************************

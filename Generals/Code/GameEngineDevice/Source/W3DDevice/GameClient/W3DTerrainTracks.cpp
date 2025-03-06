@@ -44,10 +44,10 @@
 //-----------------------------------------------------------------------------
 
 #include "W3DDevice/GameClient/W3DTerrainTracks.h"
-#include "W3DDevice/GameClient/heightmap.h"
+#include "W3DDevice/GameClient/HeightMap.h"
 #include "Common/PerfTimer.h"
-#include "common/GlobalData.h"
-#include "common/Debug.h"
+#include "Common/GlobalData.h"
+#include "Common/Debug.h"
 #include "texture.h"
 #include "colmath.h"
 #include "coltest.h"

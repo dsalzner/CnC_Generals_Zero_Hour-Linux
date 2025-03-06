@@ -34,7 +34,7 @@
 
 #define NO_DEBUG_CRC
 
-#include "Common/CRC.h"
+#include "Common/crc.h"
 #include "Common/CRCDebug.h"
 #include "Common/GameState.h"
 #include "Common/GlobalData.h"

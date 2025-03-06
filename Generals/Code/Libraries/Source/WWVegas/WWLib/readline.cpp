@@ -41,7 +41,7 @@
 #include	"readline.h"
 #include	"trim.h"
 #include	"wwfile.h"
-#include	"xstraw.h"
+#include	"XSTRAW.H"
 //#include	<ctype.h>
 #include	<string.h>
 

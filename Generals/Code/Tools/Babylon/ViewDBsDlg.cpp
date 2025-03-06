@@ -19,7 +19,7 @@
 // ViewDBsDlg.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "StdAfx.h"
 #include "noxstring.h"
 #include "noxstringdlg.h"
 #include "VIEWDBSII.h"

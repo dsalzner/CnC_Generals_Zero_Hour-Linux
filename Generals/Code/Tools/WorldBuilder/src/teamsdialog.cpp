@@ -19,7 +19,7 @@
 // teamsdialog.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "StdAfx.h"
 #include "worldbuilder.h"
 #include "teamsdialog.h"
 #include "CFixTeamOwnerDialog.h"

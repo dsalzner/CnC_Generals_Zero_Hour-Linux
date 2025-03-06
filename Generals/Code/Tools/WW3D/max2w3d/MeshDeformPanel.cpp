@@ -35,7 +35,7 @@
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 
-#include "MeshDeformPanel.H"
+#include "MeshDeformPanel.h"
 #include "Resource.H"
 #include "Util.H"
 #include "MeshDeform.H"

@@ -19,12 +19,12 @@
 // GlobalLightOptions.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "StdAfx.h"
 #include "resource.h"
 #include "Lib\BaseType.h"
 #include "GlobalLightOptions.h"
 #include "WorldBuilderDoc.h"
-#include "common/GlobalData.h"
+#include "Common/GlobalData.h"
 #include "WbView3D.h"
 
 /////////////////////////////////////////////////////////////////////////////

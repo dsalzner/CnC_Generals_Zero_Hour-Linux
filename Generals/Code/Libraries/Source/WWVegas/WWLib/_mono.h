@@ -22,7 +22,7 @@
  *                                                                                             * 
  *                 Project Name : Command & Conquer                                            * 
  *                                                                                             * 
- *                     $Archive:: /G/wwlib/_mono.h                                            $* 
+ *                     $Archive:: /G/wwlib/_MONO.H                                            $* 
  *                                                                                             * 
  *                      $Author:: Eric_c                                                      $*
  *                                                                                             * 
@@ -40,7 +40,7 @@
 #ifndef _MONO_H
 #define _MONO_H
 
-#include	"mono.h"
+#include	"MONO.H"
 
 
 /*

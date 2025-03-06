@@ -47,7 +47,7 @@
 #include <windows.h>
 #include <stdio.h>
 
-#include <wpaudio/profiler.h>
+//#include <wpaudio/profiler.h>
 
 /*****************************************************************************
 **          Externals                                                       **

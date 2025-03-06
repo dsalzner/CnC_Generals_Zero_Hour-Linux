@@ -44,7 +44,7 @@
 #ifdef INCLUDE_GRANNY_IN_BUILD
 
 #include "W3DDevice/GameClient/W3DGranny.h"
-#include "common/GlobalData.h"
+#include "Common/GlobalData.h"
 #include "texture.h"
 #include "colmath.h"
 #include "coltest.h"

@@ -19,7 +19,7 @@
 // WorldBuilder.cpp : Defines the class behaviors for the application.
 //
 
-#include "stdafx.h"
+#include "StdAfx.h"
 #include <eh.h>
 #include "WorldBuilder.h"
 #include "EulaDialog.h"
@@ -34,7 +34,7 @@
 
 //#include <wsys/StdFileSystem.h>
 #include "W3DDevice/GameClient/W3DFileSystem.h"
-#include "common/GlobalData.h"
+#include "Common/GlobalData.h"
 #include "WHeightMapEdit.h"
 //#include "Common/GameFileSystem.h"
 #include "Common/FileSystem.h"

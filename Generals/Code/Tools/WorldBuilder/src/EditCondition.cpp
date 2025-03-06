@@ -19,7 +19,7 @@
 // EditCondition.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "StdAfx.h"
 #include "worldbuilder.h"
 #include "EditCondition.h"
 #include "EditParameter.h"

@@ -19,7 +19,7 @@
 // OptionsPanel.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "StdAfx.h"
 #include "worldbuilder.h"
 #include "worldbuilderdoc.h"
 #include "OptionsPanel.h"

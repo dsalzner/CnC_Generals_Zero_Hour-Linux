@@ -48,7 +48,7 @@
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 #include	"always.h"
-#include	"ramfile.h"
+#include	"RAMFile.h"
 #include	<string.h>
 
 

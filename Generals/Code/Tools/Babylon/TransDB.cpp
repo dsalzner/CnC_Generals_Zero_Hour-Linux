@@ -20,7 +20,7 @@
 // TransDB.cpp
 //
 
-#include "stdAfx.h"
+#include "StdAfx.h"
 #include "transdb.h"
 #include "noxstringdlg.h"
 #include "noxstring.h"

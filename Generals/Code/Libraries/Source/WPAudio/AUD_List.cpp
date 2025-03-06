@@ -43,8 +43,8 @@
 **            Includes                                                      **
 *****************************************************************************/
 
-#include <wpaudio/altypes.h>
-#include <wpaudio/list.h>
+//#include <wpaudio/altypes.h>
+//#include <wpaudio/list.h>
 
 // 'assignment within condition expression'.
 #pragma warning(disable : 4706)

@@ -20,7 +20,7 @@
 //	XLStuff.cpp
 //
 //
-#include "stdAfx.h"
+#include "StdAfx.h"
 #include "noxstring.h"
 #include "resource.h"				 
 #include <stdio.h>

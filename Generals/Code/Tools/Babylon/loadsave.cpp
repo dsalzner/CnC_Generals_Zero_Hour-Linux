@@ -20,7 +20,7 @@
 // loadsave.cpp
 //
 
-#include "stdAfx.h"
+#include "StdAfx.h"
 #include "iff.h"
 #include "TransDB.h"
 #include "noxstringdlg.h"

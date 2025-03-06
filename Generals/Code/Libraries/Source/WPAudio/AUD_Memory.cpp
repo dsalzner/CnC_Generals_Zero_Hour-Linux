@@ -45,8 +45,8 @@
 
 #include <string.h>
 
-#include <wpaudio/altypes.h>
-#include <wpaudio/memory.h>
+//#include <wpaudio/altypes.h>
+//#include <wpaudio/memory.h>
 
 // 'assignment within condition expression'.
 #pragma warning(disable : 4706)

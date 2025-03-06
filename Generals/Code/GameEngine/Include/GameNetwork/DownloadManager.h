@@ -31,7 +31,7 @@
 #ifndef __DOWNLOADMANAGER_H__
 #define __DOWNLOADMANAGER_H__
 
-#include "WWDownload/downloadDefs.h"
+#include "WWDownload/downloaddefs.h"
 #include "WWDownload/download.h"
 
 class CDownload;
