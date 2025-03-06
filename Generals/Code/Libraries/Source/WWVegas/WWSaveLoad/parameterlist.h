@@ -46,7 +46,7 @@
 #define __PARAMETER_LIST_H
 
 #include "always.h"
-#include "_vector.h"
+#include "Vector.H"
 #include "parameter.h"
 #include "wwdebug.h"
 

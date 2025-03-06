@@ -38,6 +38,8 @@
 #include "Lib/BaseType.h"
 #include "WW3D2/coltype.h"			///< we don't generally do this, but we need the W3D collision types
 
+#include "GameClient/CommandXlat.h"
+
 #define DEFAULT_VIEW_WIDTH 640
 #define DEFAULT_VIEW_HEIGHT 480
 #define DEFAULT_VIEW_ORIGIN_X 0

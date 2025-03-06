@@ -46,6 +46,11 @@
 #include "GameClient/View.h"
 #include "Common/Snapshot.h"
 
+#include "Common/BuildAssistant.h"
+#include "Common/KindOf.h"
+#include "GameClient/Shadow.h"
+#include "GameLogic/WeaponSet.h"
+
 // FORWARD DECLARATIONS ///////////////////////////////////////////////////////////////////////////
 class Drawable;
 class Object;

@@ -44,6 +44,10 @@
 #include "GameLogic/WeaponSet.h"
 #include "GameLogic/WeaponSetFlags.h"
 
+#include "GameLogic/Weapon.h"
+#include "GameLogic/WeaponStatus.h"
+#include "Common/Radar.h"
+
 //-----------------------------------------------------------------------------
 //           Forward References
 //-----------------------------------------------------------------------------

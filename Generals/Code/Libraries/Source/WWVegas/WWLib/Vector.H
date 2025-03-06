@@ -22,7 +22,7 @@
  *                                                                                             *
  *                 Project Name : Command & Conquer                                            *
  *                                                                                             *
- *                     $Archive:: /Commando/Code/wwlib/_vector.h                               $*
+ *                     $Archive:: /Commando/Code/wwlib/Vector.H                               $*
  *                                                                                             *
  *                      $Author:: Patrick                                                     $*
  *                                                                                             *

@@ -49,6 +49,7 @@
 #include "Common/STLTypedefs.h"
 #include "Common/SubsystemInterface.h"
 
+#include "Common/AudioAffect.h"
 
 // Forward Declarations
 

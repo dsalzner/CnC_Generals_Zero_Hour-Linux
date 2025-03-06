@@ -44,7 +44,7 @@
 #include "rendobj.h"
 #include "w3d_file.h"
 #include "w3derr.h"
-#include "_vector.h"
+#include "Vector.H"
 #include "bittype.h"
 #include <string.h>
 

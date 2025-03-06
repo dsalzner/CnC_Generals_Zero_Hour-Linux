@@ -40,6 +40,8 @@
 #include "Common/STLTypedefs.h"
 #include "GameLogic/Module/UpdateModule.h"	// needed for DIRECT_UPDATEMODULE_ACCESS
 
+#include "Common/ThingTemplate.h"
+
 /*
 	At one time, we distinguished between sleepy and nonsleepy
 	update modules, and kept a separate list for each. however,

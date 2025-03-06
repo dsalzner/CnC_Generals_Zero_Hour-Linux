@@ -60,7 +60,7 @@
 #endif
 
 #ifndef VECTOR_H
-#include "_vector.h"
+#include "Vector.H"
 #endif
 
 

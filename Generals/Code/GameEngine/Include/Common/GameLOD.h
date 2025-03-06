@@ -33,6 +33,8 @@
 
 #pragma once
 
+#include "GameClient/ParticleSys.h"
+
 #ifndef _GAME_LOD_H_
 #define _GAME_LOD_H_
 

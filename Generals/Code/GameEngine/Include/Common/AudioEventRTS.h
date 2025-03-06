@@ -35,6 +35,8 @@
 #include "Common/GameMemory.h"
 #include "Common/GameType.h"
 
+#include "Common/AudioEventInfo.h"
+
 // forward declarations ///////////////////////////////////////////////////////////////////////////
 struct AudioEventInfo;
 

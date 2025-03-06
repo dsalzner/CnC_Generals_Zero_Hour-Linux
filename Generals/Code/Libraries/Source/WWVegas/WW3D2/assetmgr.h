@@ -44,7 +44,7 @@
 #define ASSETMGR_H
 
 #include "always.h"
-#include "_vector.h"
+#include "Vector.H"
 #include "htreemgr.h"
 #include "hanimmgr.h"
 #include "slist.h"

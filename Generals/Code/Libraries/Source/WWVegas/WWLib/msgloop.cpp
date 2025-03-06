@@ -40,7 +40,7 @@
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 #include	"always.h"
-#include	"_vector.h"
+#include	"Vector.H"
 #include	"win.h"
 
 

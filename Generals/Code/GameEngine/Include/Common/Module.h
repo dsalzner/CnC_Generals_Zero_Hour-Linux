@@ -34,6 +34,8 @@
 #ifndef __MODULE_H_
 #define __MODULE_H_
 
+#include "Common/GameLOD.h"
+
 // INCLUDES ///////////////////////////////////////////////////////////////////////////////////////
 #include "Common/INI.h"
 #include "Common/GameMemory.h"

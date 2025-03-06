@@ -43,7 +43,7 @@
 
 #include "always.h"
 #include "w3d_file.h"
-#include "_vector.h"
+#include "Vector.H"
 
 class GameMtl;
 class Mtl;

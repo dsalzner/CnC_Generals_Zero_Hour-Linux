@@ -43,7 +43,7 @@
 #define W3DEXCLUSIONLIST_H
 
 #include "always.h"
-#include "_vector.h"
+#include "Vector.H"
 #include "wwstring.h"
 #include "hashtemplate.h"
 

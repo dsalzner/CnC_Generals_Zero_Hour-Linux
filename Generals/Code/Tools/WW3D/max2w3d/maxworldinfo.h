@@ -43,7 +43,7 @@
 #include <Max.h>
 #include "meshbuild.h"
 #include "nodelist.h"
-#include "_vector.h"
+#include "Vector.H"
 
 
 class GeometryExportTaskClass;

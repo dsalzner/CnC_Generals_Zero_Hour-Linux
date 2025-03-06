@@ -32,6 +32,8 @@
 
 #include "GameClient/InGameUI.h"
 
+#include "GameClient/ControlBar.h"
+
 enum GUICommandType;
 
 //-----------------------------------------------------------------------------

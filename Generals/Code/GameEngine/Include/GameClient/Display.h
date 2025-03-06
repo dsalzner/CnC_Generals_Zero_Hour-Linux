@@ -36,6 +36,7 @@
 #include "View.h"
 #include "GameClient/Color.h"
 #include "GameClient/GameFont.h"
+#include "Common/GameLOD.h"
 
 class View;
 

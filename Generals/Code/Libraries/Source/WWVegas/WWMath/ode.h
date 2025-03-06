@@ -44,7 +44,7 @@
 #define ODE_H
 
 #include "always.h"
-#include "_vector.h"
+#include "Vector.H"
 #include "wwdebug.h"
 
 

@@ -51,7 +51,7 @@
 #include "refcount.h"
 #include "rawfile.h"
 #include "SoundSceneObj.h"
-#include "_vector.h"
+#include "Vector.H"
 #include "wwstring.h"
 #include "definition.h"
 

@@ -49,7 +49,7 @@
 	#include "wwstring.h"
 #endif
 
-#include "_vector.h"
+#include "Vector.H"
 
 class FileClass;
 

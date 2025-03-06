@@ -47,6 +47,8 @@
 #ifndef _PLAYER_H_
 #define _PLAYER_H_
 
+#include "Module/BattlePlanUpdate.h"
+
 #include "Common/Debug.h"
 #include "Common/Energy.h"
 #include "Common/GameType.h"
@@ -62,6 +64,9 @@
 #include "Common/ScoreKeeper.h"
 #include "Common/Team.h"
 #include "Common/STLTypedefs.h"
+
+#include "Module/BattlePlanUpdate.h"
+#include "Common/Upgrade.h"
 
 // ----------------------------------------------------------------------------------------------
 

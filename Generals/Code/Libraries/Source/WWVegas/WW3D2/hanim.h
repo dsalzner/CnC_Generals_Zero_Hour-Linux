@@ -51,7 +51,7 @@
 #include "mempool.h"
 #include <refcount.h>
 #include <SLIST.H>
-#include <_vector.h>
+#include <Vector.H>
 
 struct NodeMotionStruct;
 class MotionChannelClass;

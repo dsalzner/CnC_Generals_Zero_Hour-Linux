@@ -37,6 +37,8 @@
 #include "Common/DisabledTypes.h"
 #include "GameLogic/Module/BehaviorModule.h"
 
+#include "GameClient/ControlBar.h"
+
 #define DIRECT_UPDATEMODULE_ACCESS
 
 //-------------------------------------------------------------------------------------------------

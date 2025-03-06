@@ -37,6 +37,7 @@
 #include "Common/STLTypedefs.h"
 #include "Common/AsciiString.h"
 #include "Common/GameCommon.h"
+#include "Common/Science.h"
 
 //-------------------------------------------------------------------------------------------------
 class INI;
