@@ -43,7 +43,7 @@
 
 #include "rendobj.h"
 #include "composite.h"
-#include "Vector.H"
+#include "_vector.h"
 #include "proto.h"
 #include "w3d_file.h"
 #include "wwstring.h"

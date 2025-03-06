@@ -51,7 +51,7 @@
 #endif
 
 #ifndef VECTOR_H
-#include "Vector.H"
+#include "_vector.h"
 #endif
 
 #ifndef W3D_FILE_H

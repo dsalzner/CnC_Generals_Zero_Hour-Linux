@@ -42,7 +42,7 @@
 #define SNAPPTS_H
 
 #include "refcount.h"
-#include "Vector.H"
+#include "_vector.h"
 #include "vector3.h"
 #include "w3derr.h"
 

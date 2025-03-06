@@ -43,7 +43,7 @@
 
 #include "render2d.h"
 #include "refcount.h"
-#include "Vector.H"
+#include "_vector.h"
 #include "vector2i.h"
 #include "wwstring.h"
 #include "win.h"

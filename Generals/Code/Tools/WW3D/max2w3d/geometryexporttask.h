@@ -42,7 +42,7 @@
 #include <string.h>
 #include <Max.h>
 #include "w3d_file.h"
-#include "Vector.H"
+#include "_vector.h"
 
 
 class GeometryExportContextClass;

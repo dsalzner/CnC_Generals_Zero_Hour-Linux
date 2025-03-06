@@ -44,7 +44,7 @@
 #include "always.h"
 #endif
 
-#include "Vector.H"
+#include "_vector.h"
 #include "wwstring.h"
 #include "widestring.h"
 
