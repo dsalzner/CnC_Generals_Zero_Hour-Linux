@@ -22,7 +22,7 @@ sudo apt-get -y install g++-mingw-w64-x86-64 mingw-w64-tools
 - fix issues mingw32-g++ has with the code
   - [x] case issues in directory names and header file names
   - [x] remove headers to missing audio lib
-  - [ ] missing includes errors
+  - [ ] missing include errors
   - [ ] missing enum definitions
 - [ ] mock references to missing audio library
 - [ ] remaining compilation/linking issues

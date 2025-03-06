@@ -24,5 +24,11 @@ mv "STLport-4.5.3" stlport
 wget https://sourceforge.net/projects/gnuwin32/files/zlib/1.1.4/zlib-1.1.4-src.zip/download -O zlib-1.1.4.zip
 unzip zlib-1.1.4.zip -d zlib-1.1.4
 
-sed -i 's/\#include <Windows.h>/\/\/#include <windows.h>/g' directx-dxut/Core/DXUT.h
-sed -i 's/\#include <Windows.h>/\/\/#include <windows.h>/g' directx-dxut/Core/dxerr.h
+sed -i 's/\#include <Windows.h>/#include <windows.h>/g' directx-dxut/Core/DXUT.h
+sed -i 's/\#include <Windows.h>/#include <windows.h>/g' directx-dxut/Core/dxerr.h
+sed -i 's/\#include <wrl\client.h>/#include <wrl\/client.h>/g' directx-dxut/Core/WICTextureLoader.cpp
+sed -i 's/\#include <wrl\client.h>/#include <wrl\/client.h>/g' directx-dxut/Core/ScreenGrab.cpp
+
+sed -i 's/\#include <wrl\client.h>/#include <wrl\/client.h>/g' directx-math/SHMath/DirectXSHD3D11.cpp
+sed -i 's/\#include <wrl\client.h>/#include <wrl\/client.h>/g' directx-math/SHMath/DirectXSHD3D12.cpp
+
