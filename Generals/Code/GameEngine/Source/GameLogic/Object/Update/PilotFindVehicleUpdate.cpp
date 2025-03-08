@@ -32,7 +32,7 @@
 
 #define DEFINE_WEAPONSLOTTYPE_NAMES
 
-#include "GameClient\Drawable.h"
+#include "GameClient/Drawable.h"
 
 #include "Common/ActionManager.h"
 #include "Common/Player.h"

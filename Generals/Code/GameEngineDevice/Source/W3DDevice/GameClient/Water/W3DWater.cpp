@@ -44,7 +44,7 @@
 #include "scene.h"
 #include "dx8wrapper.h"
 #include "light.h"
-#include "D3dx8math.h"
+#include "d3dx8math.h"
 #include "simplevec.h"
 #include "mesh.h"
 #include "matinfo.h"

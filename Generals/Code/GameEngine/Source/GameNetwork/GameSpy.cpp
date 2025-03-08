@@ -28,15 +28,15 @@
 
 #include "PreRTS.h"	// This must go first in EVERY cpp file int the GameEngine
 
-#include "GameSpy/GP/GP.h"
-#include "GameSpy/gstats/gpersist.h"
+#include "gamespy/gp/gp.h"
+#include "gamespy/gstats/gpersist.h"
 
 #include "GameNetwork/FirewallHelper.h"
 #include "GameNetwork/GameSpy.h"
 #include "GameNetwork/GameSpyChat.h"
 #include "GameNetwork/GameSpyGameInfo.h"
 #include "GameNetwork/GameSpyOverlay.h"
-#include "GameNetwork/GameSpyGP.h"
+#include "GameNetwork/GameSpygp.h"
 #include "GameNetwork/GameSpyPersistentStorage.h"
 #include "GameNetwork/GameSpyThread.h"
 #include "GameNetwork/NAT.h"

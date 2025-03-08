@@ -47,7 +47,7 @@
 #include "Vector.H"
 #include "htreemgr.h"
 #include "hanimmgr.h"
-#include "slist.h"
+#include "SLIST.H"
 #include "texture.h"
 #include "hashtemplate.h"
 #include "simplevec.h"

@@ -46,14 +46,14 @@
 #include <stdio.h>
 #include <string.h>
 
-//#include <wpaudio/altypes.h>
-//#include <wpaudio/Streamer.h>
-//#include <wpaudio/StreamBuffering.h>
-//#include <wpaudio/source.h>
+#include <wpaudio/altypes.h>
+#include <wpaudio/Streamer.h>
+#include <wpaudio/StreamBuffering.h>
+#include <wpaudio/source.h>
 //#include <wsys/file.h>
-//#include <wpaudio/device.h>
-//#include <wpaudio/channel.h>
-//#include <wpaudio/thread.h>
+#include <wpaudio/device.h>
+#include <wpaudio/channel.h>
+#include <wpaudio/thread.h>
 
 // 'assignment within condition expression'.
 #pragma warning(disable : 4706)

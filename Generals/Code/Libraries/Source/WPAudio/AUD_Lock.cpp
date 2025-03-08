@@ -44,8 +44,8 @@
 *****************************************************************************/
 
 
-//#include <wpaudio/altypes.h>
-//#include <wpaudio/lock.h>
+#include <wpaudio/altypes.h>
+#include <wpaudio/lock.h>
 
 DBG_DECLARE_TYPE ( Lock )
 

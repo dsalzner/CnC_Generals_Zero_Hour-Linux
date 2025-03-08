@@ -58,6 +58,8 @@
 #include <assert.h>
 #include <string.h>		// for memmove
 
+//#include "vector.h"
+#include "pluglib/Vector.H"
 
 #if (_MSC_VER >= 1200)
 #pragma warning (push)

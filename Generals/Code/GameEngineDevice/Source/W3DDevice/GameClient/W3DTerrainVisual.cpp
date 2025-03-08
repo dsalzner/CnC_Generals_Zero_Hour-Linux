@@ -54,7 +54,7 @@
 #include "WW3D2/light.h"
 #include "WW3D2/rendobj.h"
 #include "WW3D2/coltype.h"
-#include "WW3D2/ColTest.h"
+#include "WW3D2/coltest.h"
 #include "WW3D2/assetmgr.h"
 
 #include "Common/UnitTimings.h" //Contains the DO_UNIT_TIMINGS define jba.		 

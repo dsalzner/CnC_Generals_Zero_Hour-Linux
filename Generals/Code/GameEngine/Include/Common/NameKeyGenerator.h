@@ -71,8 +71,8 @@ public:
 	AsciiString		m_nameString;
 };
 
-inline Bucket::Bucket() : m_nextInSocket(NULL), m_key(NAMEKEY_INVALID) { }
-inline Bucket::~Bucket() { }
+/* inline */ Bucket::Bucket() : m_nextInSocket(NULL), m_key(NAMEKEY_INVALID) { }
+/* inline */ Bucket::~Bucket() { }
 
 //------------------------------------------------------------------------------------------------- 
 /** This class implements the conversion of an arbitrary string into a unique

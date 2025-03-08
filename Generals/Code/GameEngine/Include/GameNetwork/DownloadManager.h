@@ -32,7 +32,7 @@
 #define __DOWNLOADMANAGER_H__
 
 #include "WWDownload/downloaddefs.h"
-#include "WWDownload/download.h"
+#include "WWDownload/Download.h"
 
 class CDownload;
 class QueuedDownload

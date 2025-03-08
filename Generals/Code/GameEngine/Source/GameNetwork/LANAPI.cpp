@@ -30,7 +30,7 @@
 #include "Common/GameState.h"
 #include "Common/Registry.h"
 #include "GameNetwork/LANAPI.h"
-#include "GameNetwork/NetworkUtil.h"
+#include "GameNetwork/networkutil.h"
 #include "Common/GlobalData.h"
 #include "Common/RandomValue.h"
 #include "GameClient/GameText.h"

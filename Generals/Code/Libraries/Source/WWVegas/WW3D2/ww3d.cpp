@@ -98,7 +98,7 @@
 #include "statistics.h"
 #include "pointgr.h"
 #include "ffactory.h"
-#include "ini.h"
+#include "INI.h"
 #include "dazzle.h"
 #include "meshmdl.h"
 #include "dx8renderer.h"

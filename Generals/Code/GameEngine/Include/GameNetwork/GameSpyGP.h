@@ -22,7 +22,7 @@
 //																																						//
 ////////////////////////////////////////////////////////////////////////////////
 
-// FILE: GameSpyGP.h //////////////////////////////////////////////////////
+// FILE: GameSpygp.h //////////////////////////////////////////////////////
 // Generals GameSpy GP (Buddy)
 // Author: Matthew D. Campbell, March 2002
 
@@ -31,7 +31,7 @@
 #ifndef __GAMESPYGP_H__
 #define __GAMESPYGP_H__
 
-#include "GameSpy/GP/GP.h"
+#include "GameSpy/GP/gp.h"
 
 void GPRecvBuddyRequestCallback(GPConnection * connection, GPRecvBuddyRequestArg * arg, void * param);
 void GPRecvBuddyMessageCallback(GPConnection * pconnection, GPRecvBuddyMessageArg * arg, void * param);

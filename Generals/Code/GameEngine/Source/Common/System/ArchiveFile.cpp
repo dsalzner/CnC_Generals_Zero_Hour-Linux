@@ -28,7 +28,7 @@
 
 #include "PreRTS.h"
 
-#include "Common/Archivefile.h"
+#include "Common/ArchiveFile.h"
 #include "Common/ArchiveFileSystem.h"
 #include "Common/file.h"
 #include "Common/PerfTimer.h"

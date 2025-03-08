@@ -63,6 +63,8 @@ class STLSpecialAlloc;
 
 
 // FORWARD DECLARATIONS
+#include "Common/NameKeyGenerator.h"
+#include "Common/GameType.h"
 class Object;
 enum NameKeyType;
 enum ObjectID;

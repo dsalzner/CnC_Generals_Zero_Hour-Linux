@@ -97,13 +97,13 @@
 //#define abs(x) (((x) < 0) ? -(x) : (x))
 //#endif
 
-//#ifndef min
-//#define min(x,y) (((x)<(y)) ? (x) : (y))
-//#endif
+#ifndef min
+#define min(x,y) (((x)<(y)) ? (x) : (y))
+#endif
 
-//#ifndef max
-//#define max(x,y) (((x)>(y)) ? (x) : (y))
-//#endif
+#ifndef max
+#define max(x,y) (((x)>(y)) ? (x) : (y))
+#endif
 
 #ifndef TRUE
 #define TRUE true
@@ -178,10 +178,13 @@ __forceinline long fast_float2long_round(float f)
 {
 	long i;
 
+  /*
 	__asm {
 		fld [f]
 		fistp [i]
 	}
+  */
+  i = (long)f;
 
 	return i;
 }

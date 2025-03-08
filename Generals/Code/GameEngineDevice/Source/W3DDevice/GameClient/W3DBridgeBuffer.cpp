@@ -65,12 +65,12 @@
 #include "W3DDevice/GameClient/Module/W3DModelDraw.h"
 #include "W3DDevice/GameClient/W3DShaderManager.h"
 #include "W3DDevice/GameClient/W3DShroud.h"
-#include "WW3D2/Camera.h"
-#include "WW3D2/DX8Wrapper.h"
-#include "WW3D2/DX8Renderer.h"
-#include "WW3D2/Mesh.h"
-#include "WW3D2/MeshMdl.h"
-#include "WW3D2/Scene.h"
+#include "WW3D2/camera.h"
+#include "WW3D2/dx8wrapper.h"
+#include "WW3D2/dx8renderer.h"
+#include "WW3D2/mesh.h"
+#include "WW3D2/meshmdl.h"
+#include "WW3D2/scene.h"
 
 //-----------------------------------------------------------------------------
 //         Private Data                                                     
