@@ -33,12 +33,12 @@ with open('missing-headers.txt') as f:
             print(f"in {code} replace {a} with {b}")
 
             try:
-                with open(code, 'r') as fp:
+                with open(code, 'r', encoding='iso-8859-15') as fp:
                   contents = fp.read()
 
                 contents = contents.replace(a, b)
 
-                with open(code, 'w') as fp:
+                with open(code, 'w', encoding='iso-8859-15') as fp:
                   fp.write(contents)
 
             except Exception as e: 
