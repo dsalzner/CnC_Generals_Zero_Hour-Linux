@@ -38,6 +38,7 @@
 #include "Common/STLTypedefs.h"
 #include "Common/ModelState.h"
 #include "Common/Science.h"
+#include "Common/KindOf.h"
 
 // FORWARD REFERENCES /////////////////////////////////////////////////////////////////////////////
 class Snapshot;

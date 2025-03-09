@@ -36,8 +36,8 @@
 
 
 #include "SoundPseudo3D.h"
-#include "wwaudio.h"
-#include "soundscene.h"
+#include "WWAudio.h"
+#include "SoundScene.h"
 #include "utils.h"
 #include "soundchunkids.h"
 #include "persistfactory.h"

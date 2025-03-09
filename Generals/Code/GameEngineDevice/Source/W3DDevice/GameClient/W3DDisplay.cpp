@@ -97,7 +97,7 @@ static void drawFramerateBar(void);
 #include "WW3D2/Meshmatdesc.h"
 #include "WW3D2/Meshmdl.h"
 #include "WW3D2/rddesc.h"
-#include "targa.h"
+#include "TARGA.H"
 #include "Lib/BaseType.h"
 
 #include "GameLogic/ScriptEngine.h"		// For TheScriptEngine - jkmcd

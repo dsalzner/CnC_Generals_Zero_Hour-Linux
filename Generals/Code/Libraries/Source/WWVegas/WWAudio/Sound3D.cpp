@@ -36,8 +36,8 @@
 
 
 #include "Sound3D.h"
-#include "soundbuffer.h"
-#include "wwaudio.h"
+#include "SoundBuffer.h"
+#include "WWAudio.h"
 #include "soundscene.h"
 #include "utils.h"
 #include "soundchunkids.h"

@@ -51,6 +51,10 @@
 #include "Common/STLTypedefs.h"
 #include "GameClient/Color.h"
 
+#include "Common/Radar.h"
+#include "Common/ThingSort.h"
+#include "GameClient/Shadow.h"
+
 // FORWARD REFERENCES /////////////////////////////////////////////////////////////////////////////
 class AIUpdateModuleData;
 class Image;

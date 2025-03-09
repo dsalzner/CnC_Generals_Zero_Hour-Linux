@@ -40,14 +40,14 @@
 #ifndef INI_H
 #define INI_H
 
-//#include	"listnode.h"
-//#include	"trect.h"
-//#include	"index.h"
+#include	"LISTNODE.H"
+#include	"TRECT.H"
+#include	"INDEX.H"
 
-//#include	"pipe.h"
-//#include	"pk.h"
-//#include	"straw.h"
-//#include	"wwfile.h"
+#include	"PIPE.H"
+#include	"PK.H"
+#include	"STRAW.H"
+#include	"WWFILE.H"
 
 class PKey;
 class FileClass;

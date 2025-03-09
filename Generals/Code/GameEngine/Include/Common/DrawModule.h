@@ -37,6 +37,8 @@
 #include "Common/Module.h"
 #include "Common/ModelState.h"
 #include "GameClient/Color.h"
+#include "GameClient/Drawable.h"
+#include "GameClient/Shadow.h"
 
 // FORWARD REFERENCES /////////////////////////////////////////////////////////////////////////////
 class Matrix3D;

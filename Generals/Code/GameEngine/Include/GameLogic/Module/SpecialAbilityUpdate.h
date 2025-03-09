@@ -37,6 +37,7 @@
 #include "Common/INI.h"
 #include "GameLogic/Module/UpdateModule.h"
 #include "GameClient/ParticleSys.h"	
+#include "Common/SpecialPowerType.h"
 
 class DamageInfo;
 class SpecialPowerTemplate;

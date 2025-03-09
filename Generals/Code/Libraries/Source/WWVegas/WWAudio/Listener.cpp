@@ -36,8 +36,8 @@
 
 
 #include "Listener.h"
-#include "wwaudio.h"
-#include "utils.h"
+#include "WWAudio.h"
+#include "Utils.h"
 #include "soundhandle.h"
 
 

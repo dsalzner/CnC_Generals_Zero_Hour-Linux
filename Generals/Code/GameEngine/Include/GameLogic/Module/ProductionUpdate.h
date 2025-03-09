@@ -36,6 +36,8 @@
 #include "Common/ModelState.h"
 #include "GameLogic/Module/DieModule.h"
 #include "GameLogic/Module/UpdateModule.h"
+#include "Common/BuildAssistant.h"
+#include "Module/UpdateModule.h"
 
 // FORWARD REFERNCES //////////////////////////////////////////////////////////////////////////////
 class ProductionEntry;

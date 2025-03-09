@@ -1231,7 +1231,7 @@ Bool TexturePage::generateTexture( void )
 	// zero the packed image to all zero
 	memset( m_packedImage, 0, sizeof( Byte ) * bufferSize );
 	
-	// setup the targa header
+	// setup the TARGA.Header
 	m_targa->Header.ImageType = TGA_TRUECOLOR;
 	m_targa->Header.Width = m_size.x;
 	m_targa->Header.Height = m_size.y;

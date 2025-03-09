@@ -32,6 +32,8 @@
 #ifndef __SUBSYSTEMINTERFACE_H_
 #define __SUBSYSTEMINTERFACE_H_
 
+#include <vector>
+
 #include "Common/INI.h"
 #include "Common/STLTypedefs.h"	
 

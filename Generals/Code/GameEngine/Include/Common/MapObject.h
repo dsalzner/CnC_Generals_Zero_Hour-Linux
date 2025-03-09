@@ -35,6 +35,7 @@
 #include "Common/Dict.h"
 #include "Common/GameMemory.h"
 #include "GameClient/TerrainRoads.h"
+#include "GameLogic/TerrainLogic.h"
 
 /** MapObject class 
 Not ref counted.  Do not store pointers to this class.  */

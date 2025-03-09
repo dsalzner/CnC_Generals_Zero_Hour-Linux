@@ -36,10 +36,10 @@
 
 
 #include "AudibleSound.h"
-#include "wwaudio.h"
+#include "WWAudio.h"
 #include "ww3d.h"
 #include "wwdebug.h"
-#include "soundbuffer.h"
+#include "SoundBuffer.h"
 #include "utils.h"
 #include "soundscene.h"
 #include "filteredsound.h"

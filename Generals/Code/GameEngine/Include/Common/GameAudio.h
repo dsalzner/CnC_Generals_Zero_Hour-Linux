@@ -50,6 +50,7 @@
 #include "Common/SubsystemInterface.h"
 
 #include "Common/AudioAffect.h"
+#include "Common/AudioEventInfo.h"
 
 // Forward Declarations
 

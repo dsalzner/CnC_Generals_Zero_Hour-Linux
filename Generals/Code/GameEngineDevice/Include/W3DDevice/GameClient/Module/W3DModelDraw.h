@@ -34,7 +34,9 @@
 
 // INCLUDES ///////////////////////////////////////////////////////////////////////////////////////
 #include "Common/ModelState.h"
-#include "Common/DrawModule.h" 
+#include "Common/DrawModule.h"
+#include "Common/GameLOD.h"
+ 
 #ifdef BRUTAL_TIMING_HACK // hack for collecting model timing info.  jba.
 class RenderObjClass {
 public:

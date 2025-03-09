@@ -38,6 +38,10 @@
 #include "Common/Overridable.h"
 #include "Common/Science.h"
 #include "GameClient/Color.h"
+#include "Module/ProductionUpdate.h"
+#include "Module/ProductionUpdate.h"
+#include "GameClient/Gadget.h"
+#include "GameClient/InGameUI.h"
 
 // FORWARD REFERENCES /////////////////////////////////////////////////////////////////////////////
 class Drawable;

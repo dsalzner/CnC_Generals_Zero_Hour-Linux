@@ -48,7 +48,7 @@
 #include "vector3i.h"
 #include "quat.h"
 #include "INI.h"
-#include "POINT.h"
+#include "Point.h"
 #include "rinfo.h"
 #include "vertmaterial.h"
 #include "chunkio.h"

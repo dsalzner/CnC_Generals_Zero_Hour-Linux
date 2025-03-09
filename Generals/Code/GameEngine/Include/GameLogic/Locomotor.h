@@ -38,6 +38,7 @@
 #include "Common/Snapshot.h"
 #include "GameLogic/Damage.h"
 #include "GameLogic/LocomotorSet.h"
+#include "Module/PhysicsUpdate.h"
 
 // FORWARD REFERENCES /////////////////////////////////////////////////////////////////////////////
 class Locomotor;

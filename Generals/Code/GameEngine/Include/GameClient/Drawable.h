@@ -39,6 +39,7 @@
 #include "GameClient/Color.h"
 #include "WWMath/matrix3d.h"
 #include "GameClient/DrawableInfo.h"
+#include "Module/BodyModule.h"
 
 // FORWARD REFERENCES /////////////////////////////////////////////////////////////////////////////
 class PositionalSound;

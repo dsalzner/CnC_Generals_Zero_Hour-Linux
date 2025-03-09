@@ -36,6 +36,7 @@
 #include "Common/Overridable.h"
 #include "Common/NameKeyGenerator.h"
 #include "Common/UnicodeString.h"
+#include "Common/INI.h"
 
 class Player;
 

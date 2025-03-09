@@ -36,7 +36,7 @@
 
 
 #include "soundrobj.h"
-#include "audiblesound.h"
+#include "AudibleSound.h"
 #include "sound3d.h"
 #include "wwaudio.h"
 #include "ffactory.h"

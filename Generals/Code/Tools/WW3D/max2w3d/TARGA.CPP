@@ -60,7 +60,7 @@
 *
 ****************************************************************************/
 
-#include "targa.h"
+#include "TARGA.H"
 #ifndef TGA_USES_WWLIB_FILE_CLASSES
 #include <stdio.h>
 #endif
@@ -492,7 +492,7 @@ long Targa::Load(const char* name, long flags, bool invert_image)
 	/* Open the file to get the header. */
 	if (Open(name, TGA_READMODE) == 0) {
 
-		/* Allocate palette memory if requested to and the targa has one. */
+		/* Allocate palette memory if requested to and the TARGA.Has one. */
 		if ((flags & TGAF_PAL) && (Header.ColorMapType == 1)) {
 
 			/* Dispose of any previous palette. */
@@ -505,7 +505,7 @@ long Targa::Load(const char* name, long flags, bool invert_image)
 			/* Only allocate a palette if the client hasn't assigned one. */
 			if ((mPalette == NULL) && !(mFlags & TGAF_PAL)) {
 
-				/* Compute the size of the palette from the targa header. */
+				/* Compute the size of the palette from the TARGA.Header. */
 				size = (Header.CMapLength * (Header.CMapDepth >> 3));
 
 				if (size != 0) {
@@ -532,7 +532,7 @@ long Targa::Load(const char* name, long flags, bool invert_image)
 			/* Only allocate an image if the client hasn't assigned one. */
 			if ((mImage == NULL) && !(mFlags & TGAF_IMAGE)) {
 
-				/* Compute the size of the image data from the targa header. */
+				/* Compute the size of the image data from the TARGA.Header. */
 				size = ((Header.Width * Header.Height) * TGA_BytesPerPixel(Header.PixelDepth));
 				if (size != 0) {
 					/* Allocate memory for the image. */

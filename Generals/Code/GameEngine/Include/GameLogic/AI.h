@@ -37,6 +37,10 @@
 #include "Common/GameType.h"
 #include "GameLogic/Damage.h"
 #include "Common/STLTypedefs.h"
+#include "GameLogic/WeaponSetType.h"
+#include "GameLogic/WeaponSet.h"
+#include "Common/SpecialPowerType.h"
+#include "GameClient/ControlBar.h"
 
 class AIGroup;
 class AttackPriorityInfo;

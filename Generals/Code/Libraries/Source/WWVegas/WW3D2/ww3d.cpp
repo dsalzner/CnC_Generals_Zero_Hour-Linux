@@ -108,7 +108,7 @@
 #include "vector3i.h"
 #include <cstdio>
 #include "dx8wrapper.h"
-#include "targa.h"
+#include "TARGA.H"
 #include "sortingrenderer.h"
 #include "thread.h"
 #include "cpudetect.h"

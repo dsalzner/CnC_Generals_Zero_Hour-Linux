@@ -61,6 +61,7 @@
 #include "Common/GameType.h"
 #include "Common/Dict.h"
 #include "Common/AsciiString.h"
+#include "Module/BodyModule.h"
 
 //-----------------------------------------------------------------------------
 //           Forward References

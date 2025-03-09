@@ -42,45 +42,45 @@
 */
 
 // "unreferenced inline function has been removed" Yea, so what?
-#pragma warning(disable : 4514)
+//#pragma warning(disable : 4514)
 
 // Unreferenced local function removed.
-#pragma warning(disable : 4505)
+//#pragma warning(disable : 4505)
 
 // 'unreferenced formal parameter'
-#pragma warning(disable : 4100)
+//#pragma warning(disable : 4100)
 
 // 'identifier was truncated to '255' characters in the browser information':
 // Tempates create LLLOOONNNGGG identifiers!
-#pragma warning(disable : 4786)
+//#pragma warning(disable : 4786)
 
 // 'function selected for automatic inline expansion'.  Cool, but since we're treating
 // warnings as errors, don't warn me about this!
-#pragma warning(disable : 4711)
+//#pragma warning(disable : 4711)
 
-#if 0
+//#if 0
 // 'assignment within condition expression'. actually a pretty useful warning, 
 // but way too much existing code violates it.
-//#pragma warning(disable : 4706)
-#else
+////#pragma warning(disable : 4706)
+//#else
 // actually, it turned out not to be too bad, so this is now ENABLED. (srj)
-#pragma warning(error : 4706)
-#endif
+//#pragma warning(error : 4706)
+//#endif
 
 // 'conditional expression is constant'. used lots in debug builds.
-#pragma warning(disable : 4127)
+//#pragma warning(disable : 4127)
 
 // 'nonstandard extension used : nameless struct/union'. MS headers violate this...
-#pragma warning(disable : 4201)
+//#pragma warning(disable : 4201)
 
 // 'unreachable code'. STL violates this...
-#pragma warning(disable : 4702)
+//#pragma warning(disable : 4702)
 
 // 'local variable is initialized but not referenced'. good thing to know about...
-#pragma warning(error : 4189)
+//#pragma warning(error : 4189)
 
 // 'unreferenced local variable'. good thing to know about...
-#pragma warning(error : 4101)
+//#pragma warning(error : 4101)
 
 #ifndef PI
 #define PI     3.14159265359f
@@ -97,13 +97,13 @@
 //#define abs(x) (((x) < 0) ? -(x) : (x))
 //#endif
 
-#ifndef min
+//#ifndef min
 #define min(x,y) (((x)<(y)) ? (x) : (y))
-#endif
+//#endif
 
-#ifndef max
+//#ifndef max
 #define max(x,y) (((x)>(y)) ? (x) : (y))
-#endif
+//#endif
 
 #ifndef TRUE
 #define TRUE true

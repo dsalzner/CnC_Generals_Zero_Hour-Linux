@@ -820,7 +820,7 @@ void ImagePacker::addImage( char *path )
 	// load just the header information from the targa
 	m_targa->Load( info->m_path, 0, TRUE );
 
-	// get the data we need out of the targa header
+	// get the data we need out of the TARGA.Header
 	info->m_colorDepth = m_targa->Header.PixelDepth;
 	info->m_size.x = m_targa->Header.Width;
 	info->m_size.y = m_targa->Header.Height;
@@ -1137,7 +1137,7 @@ ImagePacker::~ImagePacker( void )
 	resetImageList();
 	resetPageList();
 
-	// delete our targa header loader
+	// delete our TARGA.Header loader
 	if( m_targa )
 		delete m_targa;
 
@@ -1154,7 +1154,7 @@ Bool ImagePacker::init( void )
 	if( m_targa == NULL )
 	{
 		
-		DEBUG_ASSERTCRASH( m_targa, ("Unable to allocate targa header during init\n") );
+		DEBUG_ASSERTCRASH( m_targa, ("Unable to allocate TARGA.Header during init\n") );
 		MessageBox( NULL, "ImagePacker can't init, unable to create targa",
 								"Internal Error", MB_OK | MB_ICONERROR );
 		return FALSE;

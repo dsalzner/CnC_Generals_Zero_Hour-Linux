@@ -37,6 +37,9 @@
 #define __W3DSHADERMANAGER_H_
 
 #include "WW3D2/texture.h"
+#include "GameClient/CommandXlat.h"
+#include "GameClient/W3DCustomScene.h"
+
 enum FilterTypes;
 enum CustomScenePassModes;
 enum StaticGameLODLevel;

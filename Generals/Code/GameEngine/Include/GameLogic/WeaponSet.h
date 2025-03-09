@@ -52,6 +52,8 @@ enum DamageType;
 // for WeaponSetFlags. Part of detangling.
 #include "GameLogic/WeaponSetFlags.h"
 
+#include "GameLogic/Damage.h"
+
 #ifdef DEFINE_WEAPONSLOTTYPE_NAMES
 static char *TheWeaponSlotTypeNames[] = 
 {
