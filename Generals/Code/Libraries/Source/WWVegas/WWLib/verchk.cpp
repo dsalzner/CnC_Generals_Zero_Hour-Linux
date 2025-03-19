@@ -203,7 +203,7 @@ Get_Image_File_Header (HINSTANCE app_instance, IMAGE_FILE_HEADER *file_header)
 		//
 		//	Copy the file header into the provided structure
 		//
-		::memcpy (	file_header,
+		memcpy (	file_header,
 						(((char *)dos_header) + image_header_offset),
 						sizeof (IMAGE_FILE_HEADER));		
 		retval = true;

@@ -2,10 +2,17 @@
 
 Get Cnc Generals Zero Hour running natively on Linux. 
 
+## Clone
+
+```sh
+git clone git@github.com:dsalzner/CnC_Generals_Zero_Hour-Linux.git
+cd CnC_Generals_Zero_Hour-Linux/
+```
+
 ## Get Dependencies
 
 ```sh
-sudo apt-get -y install g++-mingw-w64-x86-64 mingw-w64-tools
+sudo apt-get -y install g++-mingw-w64-i686 mingw-w64-tools
 ./dependencies.sh
 ```
 
@@ -13,6 +20,11 @@ sudo apt-get -y install g++-mingw-w64-x86-64 mingw-w64-tools
 
 ```sh
 ./compile.sh
+```
+
+
+```sh
+make -f Makefile.ww3d2
 ```
 
 ## Plan

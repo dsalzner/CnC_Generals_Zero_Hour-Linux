@@ -268,7 +268,7 @@ static void* sysAllocateDoNotZero(Int numBytes)
 		#ifdef USE_FILLER_VALUE
 		{
 			USE_PERF_TIMER(MemoryPoolInitFilling)
-			::memset32(p, s_initFillerValue, ::GlobalSize(p));
+			memset32(p, s_initFillerValue, ::GlobalSize(p));
 		}
 		#endif
 		theTotalSystemAllocationInBytes += ::GlobalSize(p);
@@ -291,7 +291,7 @@ static void sysFree(void* p)
 #ifdef MEMORYPOOL_DEBUG
 		{
 			USE_PERF_TIMER(MemoryPoolDebugging)
-			::memset32(p, GARBAGE_FILL_VALUE, ::GlobalSize(p));
+			memset32(p, GARBAGE_FILL_VALUE, ::GlobalSize(p));
 			theTotalSystemAllocationInBytes -= ::GlobalSize(p);
 		}
 #endif
@@ -1081,7 +1081,7 @@ void MemoryPoolSingleBlock::debugMarkBlockAsFree()
 {
 	USE_PERF_TIMER(MemoryPoolDebugging)
 
-	::memset32(getUserDataNoDbg(), GARBAGE_FILL_VALUE, m_logicalSize);
+	memset32(getUserDataNoDbg(), GARBAGE_FILL_VALUE, m_logicalSize);
 	m_debugLiteralTagString = FREE_SINGLEBLOCK_TAG_STRING;
 	#ifdef MEMORYPOOL_INTENSE_VERIFY
 	debugVerifyBlock();
@@ -1703,7 +1703,7 @@ void* MemoryPool::allocateBlockDoNotZeroImplementation(DECLARE_LITERALSTRING_ARG
 	#ifdef USE_FILLER_VALUE
 	{
 		USE_PERF_TIMER(MemoryPoolInitFilling)
-		::memset32(block->getUserData(), s_initFillerValue, getAllocationSize());
+		memset32(block->getUserData(), s_initFillerValue, getAllocationSize());
 	}
 	#endif
 #endif
@@ -2259,7 +2259,7 @@ void *DynamicMemoryAllocator::allocateBytesDoNotZeroImplementation(Int numBytes 
 	#ifdef USE_FILLER_VALUE
 	{
 		USE_PERF_TIMER(MemoryPoolInitFilling)
-		::memset32(result, s_initFillerValue, numBytes);
+		memset32(result, s_initFillerValue, numBytes);
 	}
 	#endif
 #endif

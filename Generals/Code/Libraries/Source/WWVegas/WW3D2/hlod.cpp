@@ -1979,8 +1979,8 @@ void HLodClass::Include_NULL_Lod(bool include)
 		// Now resize the value and cost arrays
 		float *temp_cost = W3DNEWARRAY float[LodCount];
 		float *temp_value = W3DNEWARRAY float[LodCount + 1];
-		::memcpy (temp_cost, &Cost[1], sizeof (float) * LodCount);
-		::memcpy (temp_value, &Value[1], sizeof (float) * (LodCount + 1));
+		memcpy (temp_cost, &Cost[1], sizeof (float) * LodCount);
+		memcpy (temp_value, &Value[1], sizeof (float) * (LodCount + 1));
 
 		delete [] Lod;
 		delete [] Value;
@@ -2006,8 +2006,8 @@ void HLodClass::Include_NULL_Lod(bool include)
 			// Now resize the value and cost arrays
 			float *temp_cost = W3DNEWARRAY float[LodCount + 1];
 			float *temp_value = W3DNEWARRAY float[LodCount + 2];
-			::memcpy (&temp_cost[1], Cost, sizeof (float) * LodCount);
-			::memcpy (&temp_value[1], Value, sizeof (float) * (LodCount + 1));
+			memcpy (&temp_cost[1], Cost, sizeof (float) * LodCount);
+			memcpy (&temp_value[1], Value, sizeof (float) * (LodCount + 1));
 
 			delete [] Lod;
 			delete [] Value;

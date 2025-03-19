@@ -63,7 +63,7 @@ PresetExportOptionsDialogClass::PresetExportOptionsDialogClass (Interface *maxin
 	ParentWnd (parent_wnd),
 	CurrentPane (-1)
 {
-	::memset (PaneWnds, 0, sizeof (PaneWnds));
+	memset (PaneWnds, 0, sizeof (PaneWnds));
 	return ;
 }
 
@@ -468,7 +468,7 @@ PresetExportOptionsDialogClass::On_Command (WPARAM wparam, LPARAM lparam)
 			break;
 
 		case IDCANCEL:
-			::memcpy (Options, &OrigOptions, sizeof (OrigOptions));
+			memcpy (Options, &OrigOptions, sizeof (OrigOptions));
 			EndDialog (Wnd, IDCANCEL);
 			break;
 
@@ -905,7 +905,7 @@ PresetExportOptionsDialogClass::Save_Settings (void)
 	//
 	//	Check to see if anything has changed
 	//
-	if (::memcmp (Options, &OrigOptions, sizeof (OrigOptions)) != 0) {
+	if (memcmp (Options, &OrigOptions, sizeof (OrigOptions)) != 0) {
 		SetSaveRequiredFlag (true);
 	}
 		

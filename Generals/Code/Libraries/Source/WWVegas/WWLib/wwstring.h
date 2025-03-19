@@ -41,6 +41,8 @@
 #ifndef __WWSTRING_H
 #define __WWSTRING_H
 
+#include <cstring>
+
 #include "always.h"
 #include "mutex.h"
 #include <string.h>
@@ -197,7 +199,7 @@ StringClass::operator= (const StringClass &string)
 	Uninitialised_Grow(len+1);
 	Store_Length(len);
 
-	::memcpy (m_Buffer, string.m_Buffer, (len+1) * sizeof (TCHAR));		
+	memcpy (m_Buffer, string.m_Buffer, (len+1) * sizeof (TCHAR));		
 	return (*this);
 
 }
@@ -214,7 +216,7 @@ StringClass::operator= (const TCHAR *string)
 		Uninitialised_Grow (len+1);
 		Store_Length (len);
 
-		::memcpy (m_Buffer, string, (len + 1) * sizeof (TCHAR));		
+		memcpy (m_Buffer, string, (len + 1) * sizeof (TCHAR));		
 	}
 
 	return (*this);
@@ -440,7 +442,7 @@ StringClass::Erase (int start_index, int char_count)
 			char_count = len - start_index;
 		}
 
-		::memmove (	&m_Buffer[start_index],
+		memmove (	&m_Buffer[start_index],
 						&m_Buffer[start_index + char_count],
 						(len - (start_index + char_count) + 1) * sizeof (TCHAR));
 
@@ -471,7 +473,7 @@ StringClass::operator+= (const TCHAR *string)
 	//
 	//	Copy the new string onto our the end of our existing buffer
 	//
-	::memcpy (&m_Buffer[cur_len], string, (src_len + 1) * sizeof (TCHAR));
+	memcpy (&m_Buffer[cur_len], string, (src_len + 1) * sizeof (TCHAR));
 	return (*this);
 }
 
@@ -543,7 +545,7 @@ StringClass::operator+= (const StringClass &string)
 		//
 		//	Copy the new string onto our the end of our existing buffer
 		//
-		::memcpy (&m_Buffer[cur_len], (const TCHAR *)string, (src_len + 1) * sizeof (TCHAR));				
+		memcpy (&m_Buffer[cur_len], (const TCHAR *)string, (src_len + 1) * sizeof (TCHAR));				
 	}
 
 	return (*this);

@@ -8,6 +8,6 @@ INCS="-I./Generals/Code/GameEngineDevice/Include/Win32Device/Common/ -I./General
 
 # -I./Generals/Code/Tools/WW3D/pluglib/
 
-OPTS="-municode -msse2 -static-libgcc  -D_WINDOWS -fpermissive"
+OPTS="-municode -msse2 -static-libgcc  -D_WINDOWS -fpermissive -D_STLP_NO_OWN_NAMESPACE=1"
 
 i686-w64-mingw32-g++-win32 -w $OPTS ${SRCS} -I/usr/share/mingw-w64/include ${INCS} -o main.exe

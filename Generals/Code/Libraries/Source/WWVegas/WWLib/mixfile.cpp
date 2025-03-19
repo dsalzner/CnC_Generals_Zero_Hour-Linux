@@ -97,7 +97,7 @@ MixFileFactoryClass::MixFileFactoryClass( const char * mix_filename, FileFactory
 		//	Validate the file header
 		//
 		if ( IsValid ) {
-			IsValid = (::memcmp( header.signature, "MIX1", sizeof ( header.signature ) ) == 0);
+			IsValid = (memcmp( header.signature, "MIX1", sizeof ( header.signature ) ) == 0);
 		}
 
 		//

@@ -63,7 +63,7 @@ void BWRenderClass::Buffer::Set_H_Line(int start_x, int end_x, int y)
 	unsigned char* ptr=buffer+scale*y+start_x;
 	int w=end_x-start_x;
 	if (w) {
-		::memset(ptr,0x00,w);
+		memset(ptr,0x00,w);
 
 /*		// Blurring (test)
 		*(ptr-1)&=0x80;

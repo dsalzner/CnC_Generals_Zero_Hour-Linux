@@ -153,7 +153,7 @@ void EditObjectParameter::addObject( const ThingTemplate *thingTemplate  )
 	{
 		TVINSERTSTRUCT ins;
 
-		::memset(&ins, 0, sizeof(ins));
+		memset(&ins, 0, sizeof(ins));
 		ins.hParent = parent;
 		ins.hInsertAfter = TVI_SORT;
 		ins.item.mask = TVIF_PARAM|TVIF_TEXT;
@@ -190,7 +190,7 @@ void EditObjectParameter::addObjectLists( )
 		{
 			TVINSERTSTRUCT ins;
 
-			::memset(&ins, 0, sizeof(ins));
+			memset(&ins, 0, sizeof(ins));
 			ins.hParent = parent;
 			ins.hInsertAfter = TVI_SORT;
 			ins.item.mask = TVIF_PARAM|TVIF_TEXT;
@@ -208,7 +208,7 @@ HTREEITEM EditObjectParameter::findOrAdd(HTREEITEM parent, const char *pLabel)
 {
 	TVINSERTSTRUCT ins;
 	char buffer[_MAX_PATH];
-	::memset(&ins, 0, sizeof(ins));
+	memset(&ins, 0, sizeof(ins));
 	HTREEITEM child = m_objectTreeView.GetChildItem(parent);
 	while (child != NULL) {
 		ins.item.mask = TVIF_HANDLE|TVIF_TEXT;
@@ -223,7 +223,7 @@ HTREEITEM EditObjectParameter::findOrAdd(HTREEITEM parent, const char *pLabel)
 	}
 
 	// not found, so add it.
-	::memset(&ins, 0, sizeof(ins));
+	memset(&ins, 0, sizeof(ins));
 	ins.hParent = parent;
 	ins.hInsertAfter = TVI_SORT;
 	ins.item.mask = TVIF_PARAM|TVIF_TEXT;
@@ -245,7 +245,7 @@ void EditObjectParameter::OnOK()
 	}
 
 	TVITEM item;
-	::memset(&item, 0, sizeof(item));
+	memset(&item, 0, sizeof(item));
 	item.mask = TVIF_HANDLE|TVIF_PARAM|TVIF_TEXT|TVIF_STATE;
 	item.hItem = hItem;
 	item.pszText = buffer;

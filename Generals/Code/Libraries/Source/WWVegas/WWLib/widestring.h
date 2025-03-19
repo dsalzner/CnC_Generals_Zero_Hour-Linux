@@ -391,7 +391,7 @@ WideStringClass::Erase (int start_index, int char_count)
 			char_count = len - start_index;
 		}
 
-		::memmove (	&m_Buffer[start_index],
+		memmove (	&m_Buffer[start_index],
 						&m_Buffer[start_index + char_count],
 						(len - (start_index + char_count) + 1) * sizeof (WCHAR));
 
@@ -413,7 +413,7 @@ WideStringClass::operator= (const WCHAR *string)
 		Uninitialised_Grow (len + 1);
 		Store_Length (len);
 
-		::memcpy (m_Buffer, string, (len + 1) * sizeof (WCHAR));		
+		memcpy (m_Buffer, string, (len + 1) * sizeof (WCHAR));		
 	}
 
 	return (*this);
@@ -468,7 +468,7 @@ WideStringClass::operator+= (const WCHAR *string)
 	//
 	//	Copy the new string onto our the end of our existing buffer
 	//
-	::memcpy (&m_Buffer[cur_len], string, (src_len + 1) * sizeof (WCHAR));
+	memcpy (&m_Buffer[cur_len], string, (src_len + 1) * sizeof (WCHAR));
 	return (*this);
 }
 
@@ -531,7 +531,7 @@ WideStringClass::operator+= (const WideStringClass &string)
 		//
 		//	Copy the new string onto our the end of our existing buffer
 		//
-		::memcpy (&m_Buffer[cur_len], (const WCHAR *)string, (src_len + 1) * sizeof (WCHAR));				
+		memcpy (&m_Buffer[cur_len], (const WCHAR *)string, (src_len + 1) * sizeof (WCHAR));				
 	}
 
 	return (*this);

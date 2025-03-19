@@ -38,6 +38,8 @@
  *   PivotClass::Compute_Transform -- Update the pivot's transformation matrix                 * 
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
+#include <cstring>
+
 #include "pivot.h"
 #include "wwmath.h"
 #include <string.h>

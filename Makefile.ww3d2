@@ -1,7 +1,7 @@
 SRCS:=$(wildcard Generals/Code/Libraries/Source/WWVegas/WW3D2/*.cpp)
-OPTS=-municode -msse2 -static-libgcc  -D_WINDOWS -fpermissive
-INCS=-I./Generals/Code/Libraries/Source/WWVegas/ -I./Generals/Code/Libraries/Source/WWVegas/WWDebug/ -I./Generals/Code/Libraries/Source/WWVegas/WWLib/ -I./Generals/Code/Tools/WW3D/ -I./Generals/Code/Libraries/Source/WWVegas/WWMath/ -I./Generals/Code/GameEngine/Include/ -I./Generals/Code/Libraries/Source/WWVegas/WWLib/ -I./Generals/Code/Tools/WW3D/pluglib/ -I./Generals/Code/GameEngine/Include/Common/ -I./Generals/Code/Libraries/Include/ -I./lib/stlport/
+OPTS=-municode -msse2 -static-libgcc  -D_WINDOWS -fpermissive -D_STLP_NO_OWN_NAMESPACE=1 -D_STLP_MAKE_HEADER
+INCS=-I./Generals/Code/Libraries/Source/WWVegas/ -I./Generals/Code/Libraries/Source/WWVegas/WWDebug/ -I./Generals/Code/Libraries/Source/WWVegas/WWLib/ -I./Generals/Code/Tools/WW3D/ -I./Generals/Code/Libraries/Source/WWVegas/WWMath/ -I./Generals/Code/GameEngine/Include/ -I./Generals/Code/Libraries/Source/WWVegas/WWLib/ -I./Generals/Code/Tools/WW3D/pluglib/ -I./Generals/Code/GameEngine/Include/Common/ -I./Generals/Code/Libraries/Include/ -I./lib/stlport/ -I./lib/stlport/stlport/
 
-all:  
-	i686-w64-mingw32-g++-win32 -w ${OPTS} ${INCS} -I/usr/share/mingw-w64/include ${SRCS} -o ww3d2.o
+all:
+	i686-w64-mingw32-g++-win32 -w -s -nostdlib ${OPTS} ${INCS} -I/usr/share/mingw-w64/include ${SRCS} -o ww3d2.o  -Wl,-nostdlib,-lkernel32
 

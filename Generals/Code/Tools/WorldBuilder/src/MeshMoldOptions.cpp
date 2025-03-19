@@ -116,7 +116,7 @@ BOOL MeshMoldOptions::OnInitDialog()
 
 				TVINSERTSTRUCT ins;
 				// not found, so add it.
-				::memset(&ins, 0, sizeof(ins));
+				memset(&ins, 0, sizeof(ins));
 				ins.hParent = TVI_ROOT;
 				ins.hInsertAfter = TVI_SORT;
 				ins.item.mask = TVIF_PARAM|TVIF_TEXT;
@@ -349,7 +349,7 @@ BOOL MeshMoldOptions::OnNotify(WPARAM wParam, LPARAM lParam, LRESULT* pResult)
 			char buffer[_MAX_PATH];
 			HTREEITEM hItem = m_moldTreeView.GetSelectedItem();
 			TVITEM item;
-			::memset(&item, 0, sizeof(item));
+			memset(&item, 0, sizeof(item));
 			item.mask = TVIF_HANDLE|TVIF_PARAM|TVIF_TEXT|TVIF_STATE;
 			item.hItem = hItem;
 			item.pszText = buffer;

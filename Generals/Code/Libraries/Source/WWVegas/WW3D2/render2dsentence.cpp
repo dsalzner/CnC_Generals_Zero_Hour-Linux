@@ -1207,7 +1207,7 @@ FontCharsClass::FontCharsClass (void) :
 	IsBold (false)
 {
 	AlternateUnicodeFont = NULL;
-	::memset( ASCIICharArray, 0, sizeof (ASCIICharArray) );
+	memset( ASCIICharArray, 0, sizeof (ASCIICharArray) );
 	return ;
 }
 
@@ -1728,7 +1728,7 @@ FontCharsClass::Grow_Unicode_Array (WCHAR ch)
 	//	Allocate enough memory to hold the new cells
 	//
 	FontCharsClassCharDataStruct **new_array = W3DNEWARRAY FontCharsClassCharDataStruct *[count];
-	::memset (new_array, 0, sizeof (FontCharsClassCharDataStruct *) * count);
+	memset (new_array, 0, sizeof (FontCharsClassCharDataStruct *) * count);
 
 	//
 	//	Copy the contents of the old array into the new array
@@ -1736,7 +1736,7 @@ FontCharsClass::Grow_Unicode_Array (WCHAR ch)
 	if ( UnicodeCharArray != NULL ) {
 		int start_offset	= (FirstUnicodeChar - first_index);
 		int old_count		= (LastUnicodeChar - FirstUnicodeChar) + 1;
-		::memcpy (&new_array[start_offset], UnicodeCharArray, sizeof (FontCharsClassCharDataStruct *) * old_count);
+		memcpy (&new_array[start_offset], UnicodeCharArray, sizeof (FontCharsClassCharDataStruct *) * old_count);
 
 		//
 		//	Delete the old array

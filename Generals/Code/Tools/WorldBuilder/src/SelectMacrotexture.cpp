@@ -98,7 +98,7 @@ BOOL SelectMacrotexture::OnInitDialog()
 				len = filename.getLength();
 				if (len<5) continue;
 				strcpy(fileBuf, filename.str());
-					::memset(&ins, 0, sizeof(ins));
+					memset(&ins, 0, sizeof(ins));
 					ins.hParent = TVI_ROOT;
 					ins.hInsertAfter = TVI_SORT;
 					ins.item.mask = TVIF_PARAM|TVIF_TEXT;
@@ -109,7 +109,7 @@ BOOL SelectMacrotexture::OnInitDialog()
 				++it;
 			} while (it != filenameList.end());
 
-			::memset(&ins, 0, sizeof(ins));
+			memset(&ins, 0, sizeof(ins));
 			ins.hParent = TVI_ROOT;
 			ins.hInsertAfter = TVI_SORT;
 			ins.item.mask = TVIF_PARAM|TVIF_TEXT;
@@ -134,7 +134,7 @@ BOOL SelectMacrotexture::OnNotify(WPARAM wParam, LPARAM lParam, LRESULT* pResult
 			char buffer[_MAX_PATH];
 			HTREEITEM hItem = m_textureTreeView.GetSelectedItem();
 			TVITEM item;
-			::memset(&item, 0, sizeof(item));
+			memset(&item, 0, sizeof(item));
 			item.mask = TVIF_HANDLE|TVIF_PARAM|TVIF_TEXT|TVIF_STATE;
 			item.hItem = hItem;
 			item.pszText = buffer;

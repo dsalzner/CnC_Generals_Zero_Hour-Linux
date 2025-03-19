@@ -27,9 +27,9 @@ wget "https://osdn.net/frs/g_redir.php?m=jaist&f=stlport%2FSTLport+archive%2FSTL
 tar -xvf stlport-4.5.3.tar.gz
 mv "STLport-4.5.3" stlport
 
-cd stlport/
-find . -type f -print0 | xargs -0 sed -i 's/std::__/std::/g'
-cd ../
+cd stlport/stlport/
+patch -p0 < ../../../stlport.diff
+cd ../../
 
 wget https://sourceforge.net/projects/gnuwin32/files/zlib/1.1.4/zlib-1.1.4-src.zip/download -O zlib-1.1.4.zip
 unzip zlib-1.1.4.zip -d zlib-1.1.4

@@ -267,7 +267,7 @@ SoundBufferClass::Load_From_Memory
 		// into the buffer
 		m_Length = size;
 		m_Buffer = W3DNEWARRAY unsigned char[m_Length];
-		::memcpy (m_Buffer, mem_buffer, size);
+		memcpy (m_Buffer, mem_buffer, size);
 		retval = true;
 
 		// If we failed, free the buffer

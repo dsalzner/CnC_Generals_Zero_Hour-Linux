@@ -316,7 +316,7 @@ HTREEITEM RoadOptions::findOrAdd(HTREEITEM parent, char *pLabel)
 {
 	TVINSERTSTRUCT ins;
 	char buffer[_MAX_PATH];
-	::memset(&ins, 0, sizeof(ins));
+	memset(&ins, 0, sizeof(ins));
 	HTREEITEM child = m_roadTreeView.GetChildItem(parent);
 	while (child != NULL) {
 		ins.item.mask = TVIF_HANDLE|TVIF_TEXT;
@@ -331,7 +331,7 @@ HTREEITEM RoadOptions::findOrAdd(HTREEITEM parent, char *pLabel)
 	}
 
 	// not found, so add it.
-	::memset(&ins, 0, sizeof(ins));
+	memset(&ins, 0, sizeof(ins));
 	ins.hParent = parent;
 	ins.hInsertAfter = TVI_LAST;
 	ins.item.mask = TVIF_PARAM|TVIF_TEXT;
@@ -348,7 +348,7 @@ Bool RoadOptions::findAndSelect(HTREEITEM parent, AsciiString label)
 {
 	TVINSERTSTRUCT ins;
 	char buffer[_MAX_PATH];
-	::memset(&ins, 0, sizeof(ins));
+	memset(&ins, 0, sizeof(ins));
 	HTREEITEM child = m_roadTreeView.GetChildItem(parent);
 	while (child != NULL) {
 		ins.item.mask = TVIF_HANDLE|TVIF_TEXT;
@@ -406,7 +406,7 @@ void RoadOptions::addRoad(char *pPath, Int terrainNdx, HTREEITEM parent)
 	{
 		TVINSERTSTRUCT ins;
 
-		::memset(&ins, 0, sizeof(ins));
+		memset(&ins, 0, sizeof(ins));
 		ins.hParent = parent;
 		ins.hInsertAfter = TVI_LAST;
 		ins.item.mask = TVIF_PARAM|TVIF_TEXT;
@@ -423,7 +423,7 @@ Bool RoadOptions::setRoadTreeViewSelection(HTREEITEM parent, Int selection)
 {
 	TVITEM item;
 	char buffer[NAME_MAX_LEN];
-	::memset(&item, 0, sizeof(item));
+	memset(&item, 0, sizeof(item));
 	HTREEITEM child = m_roadTreeView.GetChildItem(parent);
 	while (child != NULL) {
 		item.mask = TVIF_HANDLE|TVIF_PARAM|TVIF_TEXT;
@@ -543,7 +543,7 @@ BOOL RoadOptions::OnNotify(WPARAM wParam, LPARAM lParam, LRESULT* pResult)
 			char buffer[NAME_MAX_LEN];
 			HTREEITEM hItem = m_roadTreeView.GetSelectedItem();
 			TVITEM item;
-			::memset(&item, 0, sizeof(item));
+			memset(&item, 0, sizeof(item));
 			item.mask = TVIF_HANDLE|TVIF_PARAM|TVIF_TEXT;
 			item.hItem = hItem;
 			item.pszText = buffer;

@@ -87,15 +87,15 @@ ParticleEmitterDefClass::ParticleEmitterDefClass (void)
 		m_pCreationVolume (NULL),
 		m_pVelocityRandomizer (NULL)
 {
-	::memset (&m_Info, 0, sizeof (m_Info));
-	::memset (&m_InfoV2, 0, sizeof (m_InfoV2));	
+	memset (&m_Info, 0, sizeof (m_Info));
+	memset (&m_InfoV2, 0, sizeof (m_InfoV2));	
 
-	::memset (&m_ColorKeyframes, 0, sizeof (m_ColorKeyframes));
-	::memset (&m_OpacityKeyframes, 0, sizeof (m_OpacityKeyframes));
-	::memset (&m_SizeKeyframes, 0, sizeof (m_SizeKeyframes));
-	::memset (&m_RotationKeyframes, 0, sizeof (m_RotationKeyframes));
-	::memset (&m_FrameKeyframes, 0, sizeof (m_FrameKeyframes));
-	::memset (&m_LineProperties, 0, sizeof (m_LineProperties));
+	memset (&m_ColorKeyframes, 0, sizeof (m_ColorKeyframes));
+	memset (&m_OpacityKeyframes, 0, sizeof (m_OpacityKeyframes));
+	memset (&m_SizeKeyframes, 0, sizeof (m_SizeKeyframes));
+	memset (&m_RotationKeyframes, 0, sizeof (m_RotationKeyframes));
+	memset (&m_FrameKeyframes, 0, sizeof (m_FrameKeyframes));
+	memset (&m_LineProperties, 0, sizeof (m_LineProperties));
 	return ;
 }
 
@@ -113,15 +113,15 @@ ParticleEmitterDefClass::ParticleEmitterDefClass (const ParticleEmitterDefClass 
 		m_pCreationVolume (NULL),
 		m_pVelocityRandomizer (NULL)
 {
-	::memset (&m_Info, 0, sizeof (m_Info));
-	::memset (&m_InfoV2, 0, sizeof (m_InfoV2));	
+	memset (&m_Info, 0, sizeof (m_Info));
+	memset (&m_InfoV2, 0, sizeof (m_InfoV2));	
 
-	::memset (&m_ColorKeyframes, 0, sizeof (m_ColorKeyframes));
-	::memset (&m_OpacityKeyframes, 0, sizeof (m_OpacityKeyframes));
-	::memset (&m_SizeKeyframes, 0, sizeof (m_SizeKeyframes));
-	::memset (&m_RotationKeyframes, 0, sizeof (m_RotationKeyframes));
-	::memset (&m_FrameKeyframes, 0, sizeof (m_FrameKeyframes));
-	::memset (&m_LineProperties, 0, sizeof (m_LineProperties));
+	memset (&m_ColorKeyframes, 0, sizeof (m_ColorKeyframes));
+	memset (&m_OpacityKeyframes, 0, sizeof (m_OpacityKeyframes));
+	memset (&m_SizeKeyframes, 0, sizeof (m_SizeKeyframes));
+	memset (&m_RotationKeyframes, 0, sizeof (m_RotationKeyframes));
+	memset (&m_FrameKeyframes, 0, sizeof (m_FrameKeyframes));
+	memset (&m_LineProperties, 0, sizeof (m_LineProperties));
 
 	(*this) = src;
 	return ;
@@ -176,9 +176,9 @@ ParticleEmitterDefClass::operator= (const ParticleEmitterDefClass &src)
 	//
 	//	Copy the information structures
 	//
-	::memcpy (&m_Info, &src.m_Info, sizeof (m_Info));
-	::memcpy (&m_InfoV2, &src.m_InfoV2, sizeof (m_InfoV2));
-	::memcpy (&m_LineProperties, &src.m_LineProperties, sizeof(m_LineProperties));
+	memcpy (&m_Info, &src.m_Info, sizeof (m_Info));
+	memcpy (&m_InfoV2, &src.m_InfoV2, sizeof (m_InfoV2));
+	memcpy (&m_LineProperties, &src.m_LineProperties, sizeof(m_LineProperties));
 
 	//
 	//	Copy the keyframes
@@ -408,8 +408,8 @@ ParticleEmitterDefClass::Load_W3D (ChunkLoadClass &chunk_load)
 void
 ParticleEmitterDefClass::Initialize_To_Ver2 (void)
 {
-	::memset (&m_Info, 0, sizeof (m_Info));
-	::memset (&m_InfoV2, 0, sizeof (m_InfoV2));
+	memset (&m_Info, 0, sizeof (m_Info));
+	memset (&m_InfoV2, 0, sizeof (m_InfoV2));
 	
 	//
 	//	Set the version 2 values using defaults from version 1
@@ -604,7 +604,7 @@ ParticleEmitterDefClass::Read_Info (ChunkLoadClass &chunk_load)
 	    (chunk_load.Cur_Chunk_ID () == W3D_CHUNK_EMITTER_INFO)) {
 
 		// Read the chunk straight into our member structure
-		::memset (&m_Info, 0, sizeof (m_Info));
+		memset (&m_Info, 0, sizeof (m_Info));
 		if (chunk_load.Read (&m_Info, sizeof (m_Info)) == sizeof (m_Info)) {
 				
 			// Success!
@@ -707,7 +707,7 @@ ParticleEmitterDefClass::Read_InfoV2 (ChunkLoadClass &chunk_load)
 	    (chunk_load.Cur_Chunk_ID () == W3D_CHUNK_EMITTER_INFOV2)) {
 
 		// Read the chunk straight into our member structure
-		::memset (&m_InfoV2, 0, sizeof (m_InfoV2));
+		memset (&m_InfoV2, 0, sizeof (m_InfoV2));
 		if (chunk_load.Read (&m_InfoV2, sizeof (m_InfoV2)) == sizeof (m_InfoV2)) {
 
 			//

@@ -56,6 +56,8 @@
 #ifndef SPHERE_H
 #define SPHERE_H
 
+#include "math.h"
+
 #include "always.h"
 #include "vector3.h"
 #include "matrix3d.h"

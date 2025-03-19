@@ -87,8 +87,8 @@ void Copy_Emitter_Property_Struct
 	if (dest.NumKeyFrames > 0) {
 		dest.KeyTimes	=  W3DNEWARRAY float[dest.NumKeyFrames];
 		dest.Values		=  W3DNEWARRAY T[dest.NumKeyFrames];
-		::memcpy (dest.KeyTimes, src.KeyTimes, sizeof (float) * dest.NumKeyFrames);
-		::memcpy (dest.Values, src.Values, sizeof (T) * dest.NumKeyFrames);
+		memcpy (dest.KeyTimes, src.KeyTimes, sizeof (float) * dest.NumKeyFrames);
+		memcpy (dest.Values, src.Values, sizeof (T) * dest.NumKeyFrames);
 	}
 
 	return ;

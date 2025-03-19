@@ -68,8 +68,8 @@ AggregateDefClass::AggregateDefClass (void)
 	: m_pName (NULL)
 {
 	// Set our member data to default settings
-	::memset (&m_Info, 0, sizeof (m_Info));
-	::memset (&m_MiscInfo, 0, sizeof (m_MiscInfo));
+	memset (&m_Info, 0, sizeof (m_Info));
+	memset (&m_MiscInfo, 0, sizeof (m_MiscInfo));
 	m_MiscInfo.OriginalClassID = RenderObjClass::CLASSID_HLOD;
 	return ;
 }
@@ -83,8 +83,8 @@ AggregateDefClass::AggregateDefClass (const AggregateDefClass &src)
 	: m_pName (NULL)
 {
 	// Set our member data to default settings
-	::memset (&m_Info, 0, sizeof (m_Info));
-	::memset (&m_MiscInfo, 0, sizeof (m_MiscInfo));
+	memset (&m_Info, 0, sizeof (m_Info));
+	memset (&m_MiscInfo, 0, sizeof (m_MiscInfo));
 	m_MiscInfo.OriginalClassID = RenderObjClass::CLASSID_HLOD;
 
 	// Invoke the assignment operator
@@ -101,8 +101,8 @@ AggregateDefClass::AggregateDefClass (RenderObjClass &base_model)
 	: m_pName (NULL)
 {
 	// Set our member data to default settings
-	::memset (&m_Info, 0, sizeof (m_Info));
-	::memset (&m_MiscInfo, 0, sizeof (m_MiscInfo));
+	memset (&m_Info, 0, sizeof (m_Info));
+	memset (&m_MiscInfo, 0, sizeof (m_MiscInfo));
 	m_MiscInfo.OriginalClassID = RenderObjClass::CLASSID_HLOD;
 
 	Initialize (base_model);
@@ -149,8 +149,8 @@ AggregateDefClass::operator= (const AggregateDefClass &src)
 
 	// Copy the src object's name and info struct
 	Set_Name (src.Get_Name ());
-	::memcpy (&m_Info, &src.m_Info, sizeof (m_Info));
-	::memcpy (&m_MiscInfo, &src.m_MiscInfo, sizeof (m_MiscInfo));	
+	memcpy (&m_Info, &src.m_Info, sizeof (m_Info));
+	memcpy (&m_MiscInfo, &src.m_MiscInfo, sizeof (m_MiscInfo));	
 	m_Version = src.m_Version;
 
 	// Loop through all the entries in the src object's subobj list
@@ -160,7 +160,7 @@ AggregateDefClass::operator= (const AggregateDefClass &src)
 
 			// Copy the src object's info for this subobj
 			W3dAggregateSubobjectStruct *new_info = W3DNEW W3dAggregateSubobjectStruct;
-			::memcpy (new_info, pinfo, sizeof (W3dAggregateSubobjectStruct));
+			memcpy (new_info, pinfo, sizeof (W3dAggregateSubobjectStruct));
 
 			// Add this subobj to our list
 			m_SubobjectList.Add (new_info);
@@ -616,7 +616,7 @@ AggregateDefClass::Read_Info (ChunkLoadClass &chunk_load)
 	WW3DErrorType ret_val = WW3D_ERROR_LOAD_FAILED;
 
 	// Read the chunk straight into our member structure
-	::memset (&m_Info, 0, sizeof (m_Info));
+	memset (&m_Info, 0, sizeof (m_Info));
 	if (chunk_load.Read (&m_Info, sizeof (m_Info)) == sizeof (m_Info)) {
 
 		// Success!
@@ -692,7 +692,7 @@ AggregateDefClass::Read_Class_Info (ChunkLoadClass &chunk_load)
 	WW3DErrorType ret_val = WW3D_ERROR_LOAD_FAILED;
 
 	// Read the chunk straight into our header structure
-	::memset (&m_MiscInfo, 0, sizeof (m_MiscInfo));
+	memset (&m_MiscInfo, 0, sizeof (m_MiscInfo));
 	if (chunk_load.Read (&m_MiscInfo, sizeof (m_MiscInfo)) == sizeof (m_MiscInfo)) {
 
 		// Success!

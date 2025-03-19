@@ -425,7 +425,7 @@ HTREEITEM ScriptDialog::addPlayer(Int playerIndx)
 		fmt.format("%s", NEUTRAL_NAME_STR);
 	else
 		fmt.format("%s",name.str());
-	::memset(&ins, 0, sizeof(ins));
+	memset(&ins, 0, sizeof(ins));
 	ListType lt;
 	lt.m_objType=ListType::PLAYER_TYPE;
 	lt.m_playerIndex = playerIndx;
@@ -546,7 +546,7 @@ void ScriptDialog::addScriptList(HTREEITEM hPlayer, Int playerIndex, ScriptList 
 			continue;
 		else
 			fmt = formatScriptLabel(pGroup);
-		::memset(&ins, 0, sizeof(ins));
+		memset(&ins, 0, sizeof(ins));
 		ListType lt;
 		lt.m_objType=ListType::GROUP_TYPE;
 		lt.m_playerIndex = playerIndex;
@@ -572,7 +572,7 @@ void ScriptDialog::addScriptList(HTREEITEM hPlayer, Int playerIndex, ScriptList 
 				if (pScr->getName().isEmpty())
 					continue;
 				fmt = formatScriptLabel(pScr);
-				::memset(&ins, 0, sizeof(ins));
+				memset(&ins, 0, sizeof(ins));
 				ListType lt;
 				lt.m_objType=ListType::SCRIPT_IN_GROUP_TYPE;
 				lt.m_playerIndex = playerIndex;
@@ -602,7 +602,7 @@ void ScriptDialog::addScriptList(HTREEITEM hPlayer, Int playerIndex, ScriptList 
 			if (pScr->getName().isEmpty())
 				continue;
 			fmt = formatScriptLabel(pScr);
-			::memset(&ins, 0, sizeof(ins));
+			memset(&ins, 0, sizeof(ins));
 			ListType lt;
 			lt.m_objType=ListType::SCRIPT_IN_PLAYER_TYPE;
 			lt.m_playerIndex = playerIndex;
@@ -639,7 +639,7 @@ void ScriptDialog::reloadPlayer(Int playerIndex, ScriptList *pSL)
 	HTREEITEM player = pTree->GetChildItem(TVI_ROOT);
 	while (player != NULL) {
 		TVITEM item;
-		::memset(&item, 0, sizeof(item));
+		memset(&item, 0, sizeof(item));
 		item.mask = TVIF_HANDLE|TVIF_PARAM;
 		item.hItem = player;
 		pTree->GetItem(&item);
@@ -684,7 +684,7 @@ HTREEITEM ScriptDialog::findItem(ListType sel, Bool failSafe)
 	HTREEITEM player = pTree->GetChildItem(TVI_ROOT);
 	TVITEM item;
 	while (player != NULL) {
-		::memset(&item, 0, sizeof(item));
+		memset(&item, 0, sizeof(item));
 		item.mask = TVIF_HANDLE|TVIF_PARAM;
 		item.hItem = player;
 		pTree->GetItem(&item);
@@ -707,7 +707,7 @@ HTREEITEM ScriptDialog::findItem(ListType sel, Bool failSafe)
 	} else {
 		group = pTree->GetChildItem(player);
 		while (group != NULL) {
-			::memset(&item, 0, sizeof(item));
+			memset(&item, 0, sizeof(item));
 			item.mask = TVIF_HANDLE|TVIF_PARAM;
 			item.hItem = group;
 			pTree->GetItem(&item);
@@ -728,7 +728,7 @@ HTREEITEM ScriptDialog::findItem(ListType sel, Bool failSafe)
 
 	HTREEITEM script;
 	for (script = pTree->GetChildItem(group); script != NULL; script = pTree->GetNextSiblingItem(script)) {
-		::memset(&item, 0, sizeof(item));
+		memset(&item, 0, sizeof(item));
 		item.mask = TVIF_HANDLE|TVIF_PARAM;
 		item.hItem = script;
 		pTree->GetItem(&item);

@@ -205,7 +205,7 @@ void cMiscUtil::Get_File_Id_String(LPCSTR filename, StringClass & str)
       p_start--;
       num_chars++;
    }
-   ::memmove(working_filename, p_start, num_chars);
+   memmove(working_filename, p_start, num_chars);
 
 	//
 	// Put all this data into a string
@@ -274,7 +274,7 @@ int cMiscUtil::Get_Exe_Key(void)
       p_start--;
       num_chars++;
    }
-   ::memmove(filename, p_start, num_chars);
+   memmove(filename, p_start, num_chars);
 
 	//
 	// Pull a time/date stamp out of the exe header

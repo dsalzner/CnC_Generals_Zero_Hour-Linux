@@ -65,7 +65,7 @@ public:
 	//	Public methods
 	//////////////////////////////////////////////////////////////////		
 	
-	void			Set_Options (W3dExportOptionsStruct *options)	{ Options = options; ::memcpy (&OrigOptions, Options, sizeof (OrigOptions)); }
+	void			Set_Options (W3dExportOptionsStruct *options)	{ Options = options; memcpy (&OrigOptions, Options, sizeof (OrigOptions)); }
 	int			Do_Modal (void);
 
 private:

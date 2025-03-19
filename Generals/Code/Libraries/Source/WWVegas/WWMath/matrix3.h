@@ -61,6 +61,9 @@
 #ifndef Matrix3_H
 #define Matrix3_H
 
+#include <math.h>
+#include <cfloat>
+
 #include "always.h"
 #include "vector3.h"
 #include "wwdebug.h"

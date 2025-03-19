@@ -86,6 +86,8 @@
 #include "osdep.h"
 #endif
 
+#include <math.h>
+
 #include "always.h"
 #include <assert.h>
 #include "vector2.h"
