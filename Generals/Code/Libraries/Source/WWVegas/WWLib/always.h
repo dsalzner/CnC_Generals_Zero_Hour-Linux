@@ -39,6 +39,9 @@
 #define assert(ignore) ((void)0) // disable asserts
 #define _tcslen strlen
 #define _tcscmp strcmp
+#define _tcsicmp strcmp
+#define _tcsclen strlen
+//#define Vector VectorClass
 
 // --- ---
 

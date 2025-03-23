@@ -47,6 +47,8 @@
  *   SimpleDynVecClass<T>::Delete_All -- delete all items from the array                       * 
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
+#pragma once
+
 #if defined(_MSC_VER)
 #pragma once
 #endif
@@ -57,8 +59,8 @@
 #include "always.h"
 //#include <assert.h>
 
-//#include "vector.h"
-#include "pluglib/Vector.H"
+//#include "pluglib/Vector.H"
+#include "WWLib/Vector.H"
 
 #if (_MSC_VER >= 1200)
 #pragma warning (push)
@@ -288,6 +290,9 @@ protected:
 	int				Find_Index(T const & object);
 
 	int				ActiveCount;
+
+int VectorMax;
+bool IsAllocated;
 };
 
 

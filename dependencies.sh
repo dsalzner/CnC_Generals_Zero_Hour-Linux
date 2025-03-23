@@ -9,7 +9,6 @@ wget https://github.com/ryandrake08/lzhl/archive/ba3ac10ac76c3cf9a875ef477f45563
 wget https://github.com/TheSuperHackers/bink-sdk-stub/archive/f554b7fa68c97d4e6b607d535e726ef37622fe65.zip
 wget https://github.com/TheSuperHackers/miles-sdk-stub/archive/564a0cb6dcf94bd17a1adf8f6110c108189efbae.zip
 wget https://github.com/TheAssemblyArmada/GamespySDK/archive/d7ec6d4fea1c11fc37173ea954fc1ec47202a931.zip
-
 for file in *.zip
 do
  unzip "$file"
@@ -33,6 +32,9 @@ cd ../../
 
 wget https://sourceforge.net/projects/gnuwin32/files/zlib/1.1.4/zlib-1.1.4-src.zip/download -O zlib-1.1.4.zip
 unzip zlib-1.1.4.zip -d zlib-1.1.4
+
+wget https://archive.org/download/maxsdk-4.2.0.85/maxsdk.zip
+unzip maxsdk.zip
 
 sed -i 's/\#include <Windows.h>/#include <windows.h>/g' directx-dxut/Core/DXUT.h
 sed -i 's/\#include <Windows.h>/#include <windows.h>/g' directx-dxut/Core/dxerr.h
