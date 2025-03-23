@@ -17,7 +17,7 @@
 */
 
 #include "critsec.h"
-#include <assert.h>
+//#include <assert.h>
 #include "wlib/wdebug.h"
 
 

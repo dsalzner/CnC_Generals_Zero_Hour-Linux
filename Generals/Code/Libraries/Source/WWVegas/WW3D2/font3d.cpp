@@ -37,7 +37,7 @@
 #include "font3d.h"
 #include "assetmgr.h"
 #include "texture.h"
-#include <assert.h>
+//#include <assert.h>
 #include <wwdebug.h>
 #include "surfaceclass.h"
 #include "texture.h"

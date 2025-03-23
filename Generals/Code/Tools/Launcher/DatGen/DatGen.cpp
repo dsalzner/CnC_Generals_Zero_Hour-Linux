@@ -20,7 +20,7 @@
 //
 
 #include <windows.h>
-#include <assert.h>
+//#include <assert.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include "bfish.h"

@@ -72,7 +72,7 @@
 
 #include "always.h"
 #include "wwmath.h"
-#include <assert.h>
+//#include <assert.h>
 #ifdef _UNIX
 #include "osdep.h"
 #endif

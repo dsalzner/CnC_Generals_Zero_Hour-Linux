@@ -34,7 +34,7 @@
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 #include "registry.h"
-#include <assert.h>
+//#include <assert.h>
 #include <windows.h>
 
 //#include "wwdebug.h"

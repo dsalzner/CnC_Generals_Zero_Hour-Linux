@@ -40,7 +40,7 @@
 #include <windows.h>
 #include <stdio.h>
 #include <stdarg.h>
-#include <assert.h>
+//#include <assert.h>
 
 char debugLogName[_MAX_PATH];
 

@@ -1,5 +1,5 @@
 /*
-**	Command & Conquer Generals Zero Hour(tm)
+**	Command & Conquer Generals(tm)
 **	Copyright 2025 Electronic Arts Inc.
 **
 **	This program is free software: you can redistribute it and/or modify
@@ -35,6 +35,40 @@
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 
+/* --- --- */
+
+//./lib/stlport/stlport/ctype.h:28:40: error: #include expects "FILENAME" or <FILENAME>
+// 28 | # include _STLP_NATIVE_C_HEADER(ctype.h)
+//#define _STLP_NATIVE_C_HEADER(header) <##header##>
+
+//#define _STLP_MAKE_HEADER(path, header) "stlport/header"
+//#define _STLP_NATIVE_C_HEADER(header)  _STLP_MAKE_HEADER(_STLP_NATIVE_C_INCLUDE_PATH,header)
+
+//#define _STLP_NATIVE_INCLUDE_PATH   stlport/stlport
+
+//#define _STLP_NO_OWN_NAMESPACE 1
+
+
+//#include "stlport/stl_user_config.h"
+
+//#include "stlport/new.h"
+//#include "stlport/stdarg.h"
+//#include "stlport/stdlib.h"
+
+extern "C" {
+
+
+//#include "stlport/new.h"
+//#include "stlport/stdarg.h"
+//#include "stlport/stdlib.h"
+}
+
+
+
+/* --- --- */
+#pragma once
+
+
 #if defined(_MSC_VER)
 #pragma once
 #endif
@@ -43,10 +77,7 @@
 #define WWMATH_H
 
 #include "always.h"
-#include <math.h>
-#include <float.h>
-//#include <assert.h>
-#include <float.h>
+
 
 /*
 ** Some global constants.
@@ -152,19 +183,15 @@ static float		Sign(float val);
 static float		Ceil(float val) { return ceilf(val); }
 static float		Floor(float val) { return floorf(val); }
 static bool			Fast_Is_Float_Positive(const float & val);
-static bool			Is_Power_Of_2(const unsigned int val);
 
 static float		Random_Float(void);
 static float		Random_Float(float min,float max);
 static float		Clamp(float val, float min = 0.0f, float max = 1.0f);
 static double		Clamp(double val, double min = 0.0f, double max = 1.0f);
-static int			Clamp_Int(int val, int min_val, int max_val);
 static float		Wrap(float val, float min = 0.0f, float max = 1.0f);
 static double		Wrap(double val, double min = 0.0f, double max = 1.0f);
 static float		Min(float a, float b);
 static float		Max(float a, float b);
-
-static int			Float_As_Int(const float f) { return *((int*)&f); }
 
 static float		Lerp(float a, float b, float lerp );
 static double		Lerp(double a, double b, float lerp );
@@ -195,11 +222,6 @@ WWINLINE bool WWMath::Fast_Is_Float_Positive(const float & val)
 	return !((*(int *)(&val)) & 0x80000000);
 }
 
-WWINLINE bool WWMath::Is_Power_Of_2(const unsigned int val)
-{
-	return !((val)&val-1);
-}
-
 WWINLINE float WWMath::Random_Float(float min,float max) 
 { 
 	return Random_Float() * (max-min) + min; 
@@ -216,13 +238,6 @@ WWINLINE double WWMath::Clamp(double val, double min /*= 0.0f*/, double max /*= 
 {
 	if(val < min) return min;
 	if(val > max) return max;
-	return val;
-}
-
-WWINLINE int WWMath::Clamp_Int(int val, int min_val, int max_val) 
-{
-	if(val < min_val) return min_val;
-	if(val > max_val) return max_val;
 	return val;
 }
 

@@ -23,7 +23,7 @@
 
 #include <stdlib.h>
 #include <windows.h>
-#include <assert.h>
+//#include <assert.h>
 
 #include "Common/Debug.h"
 #include "GameClient/Display.h"

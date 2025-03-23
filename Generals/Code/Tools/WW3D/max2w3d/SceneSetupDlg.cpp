@@ -40,7 +40,7 @@
 
 #include "SceneSetupDlg.h"
 #include <Max.h>
-#include <assert.h>
+//#include <assert.h>
 
 static BOOL CALLBACK _thunk_dialog_proc (HWND hWnd, UINT uMsg, WPARAM wAparam, LPARAM lParam);
 

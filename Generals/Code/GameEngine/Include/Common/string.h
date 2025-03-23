@@ -41,7 +41,6 @@
 //
 //----------------------------------------------------------------------------
 
-#pragma once
 
 #ifndef __WSYS_STRING_H
 #define __WSYS_STRING_H
@@ -51,7 +50,9 @@
 //           Includes                                                      
 //----------------------------------------------------------------------------
 
+extern "C++" {
 #include "Lib/BaseType.h"
+}
 
 //----------------------------------------------------------------------------
 //           Forward References
@@ -83,8 +84,8 @@ class WSYS_String
 	const WSYS_String&	operator+= (const WSYS_String &string);
 	const WSYS_String&	operator+= (const Char *string);
 	friend WSYS_String	operator+ (const WSYS_String &string1, const WSYS_String &string2);
-	friend WSYS_String	operator+ (const Char *string1, const WSYS_String &string2);
-	friend WSYS_String	operator+ (const WSYS_String &string1, const Char *string2);
+	//friend WSYS_String	operator+ (const Char *string1, const WSYS_String &string2);
+	//friend WSYS_String	operator+ (const WSYS_String &string1, const Char *string2);
 	const Char &				operator[] (Int index) const;
 	Char &							operator[] (Int index);
 											operator const Char * (void) const;

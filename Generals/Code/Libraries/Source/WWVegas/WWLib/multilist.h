@@ -46,7 +46,7 @@
 
 #include "always.h"
 #include "mempool.h"
-#include <assert.h>
+//#include <assert.h>
 
 class MultiListNodeClass;
 class GenericMultiListClass;

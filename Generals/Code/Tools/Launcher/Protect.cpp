@@ -43,7 +43,7 @@
 #include <Storage\File.h>
 #include <windows.h>
 #include <memory>
-#include <assert.h>
+//#include <assert.h>
 #include <stdio.h>
 #include <Debug\DebugPrint.h>
 

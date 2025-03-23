@@ -25,7 +25,7 @@
 #include "resource.h"				 
 #include <stdio.h>
 #include "xlstuff.h"
-#include <assert.h>
+//#include <assert.h>
 #include <comdef.h>
 
 static const int xlWorkbookNormal = -4143;

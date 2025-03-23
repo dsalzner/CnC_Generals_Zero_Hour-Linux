@@ -40,7 +40,7 @@
 #ifndef REFCOUNTED_H
 #define REFCOUNTED_H
 
-#include <assert.h>
+//#include <assert.h>
 
 class RefCounted
 	{

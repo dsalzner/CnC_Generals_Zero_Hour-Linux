@@ -64,7 +64,7 @@
 
 #include "chunkio.h"
 #include <string.h>
-#include <assert.h>
+//#include <assert.h>
 
 
 /*********************************************************************************************** 

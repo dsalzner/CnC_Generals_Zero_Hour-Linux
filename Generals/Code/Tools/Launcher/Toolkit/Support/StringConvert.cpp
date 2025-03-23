@@ -38,7 +38,7 @@
 #include "UString.h"
 #include <windows.h>
 #include <Debug\DebugPrint.h>
-#include <assert.h>
+//#include <assert.h>
 
 /******************************************************************************
 *

@@ -37,7 +37,7 @@
 
 
 #include "vchannel.h"
-#include <assert.h>
+//#include <assert.h>
 #include <string.h>
 #include <stdlib.h>
 #include "w3d_file.h"

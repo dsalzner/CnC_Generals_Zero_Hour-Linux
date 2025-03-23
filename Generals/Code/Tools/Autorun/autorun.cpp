@@ -71,7 +71,7 @@
 #define  STRICT
 #include <windows.h>
 #include <windowsx.h>
-#include <assert.h>
+//#include <assert.h>
 #include <ctype.h>
 #include <direct.h>
 #include <dos.h>

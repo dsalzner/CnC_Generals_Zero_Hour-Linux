@@ -48,7 +48,7 @@
 #include <stdlib.h>
 #include <stdarg.h>
 #include <stdio.h>
-#include <assert.h>
+//#include <assert.h>
 #include <string.h>
 #include <signal.h>
 #include "except.h"

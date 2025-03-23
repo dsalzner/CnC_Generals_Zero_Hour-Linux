@@ -22,7 +22,7 @@
 
 
 #include "stdAfx.h"
-#include <assert.h>
+//#include <assert.h>
 #include "olestring.h"
 
 template void StripSpaces<OLECHAR> ( OLECHAR *string);

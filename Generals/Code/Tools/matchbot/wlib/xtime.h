@@ -35,7 +35,7 @@ function :-)
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <assert.h>
+//#include <assert.h>
 #include <sys/types.h>
 
 #ifndef _WINDOWS

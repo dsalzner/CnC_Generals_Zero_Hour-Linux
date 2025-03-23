@@ -49,7 +49,7 @@
 #define  STRICT
 #include <windows.h>
 #include <windowsx.h>
-#include <assert.h>
+//#include <assert.h>
 #include <ctype.h>
 #include <stdlib.h>
 #include "args.h"

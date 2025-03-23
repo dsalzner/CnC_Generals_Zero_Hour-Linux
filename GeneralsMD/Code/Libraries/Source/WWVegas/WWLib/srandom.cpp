@@ -40,7 +40,7 @@ extern "C" {
 #include <process.h>
 #endif
 #include <time.h>
-#include <assert.h>
+//#include <assert.h>
 #include "sha.h"
 
 // Static class variables

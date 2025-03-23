@@ -40,7 +40,7 @@
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 #include "ode.h"
-#include <assert.h>
+//#include <assert.h>
 
 static StateVectorClass		Y0;
 static StateVectorClass		Y1;

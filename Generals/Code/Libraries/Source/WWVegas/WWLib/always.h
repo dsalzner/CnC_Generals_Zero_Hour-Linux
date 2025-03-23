@@ -33,6 +33,15 @@
  *---------------------------------------------------------------------------------------------*
  * Functions:                                                                                  *
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+// --- additions ---
+#define TCHAR char
+#define assert(ignore) ((void)0) // disable asserts
+#define _tcslen strlen
+#define _tcscmp strcmp
+
+// --- ---
+
 #if _MSC_VER >= 1000
 #pragma once
 #endif // _MSC_VER >= 1000
@@ -40,7 +49,7 @@
 #ifndef ALWAYS_H
 #define ALWAYS_H
 
-#include <assert.h>
+////#include <assert.h>
 
 // Disable warning about exception handling not being enabled. It's used as part of STL - in a part of STL we don't use.
 #pragma warning(disable : 4530)

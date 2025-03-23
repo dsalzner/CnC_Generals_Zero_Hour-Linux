@@ -26,14 +26,15 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 // tell the compiler to only load this file once
-#pragma once
 
 
 #ifndef _BASE_TYPE_H_
 #define _BASE_TYPE_H_
 
-#include <math.h>
-#include <string.h>
+extern "C" {
+#include "stlport/math.h"
+#include "stlport/string.h"
+}
 
 /*
 **	Turn off some unneeded warnings.
@@ -116,6 +117,8 @@
 //--------------------------------------------------------------------
 // Fundamental type definitions
 //--------------------------------------------------------------------
+typedef float							Real;							// 4 bytes 
+typedef int								Int;							// 4 bytes 
 typedef float							Real;							// 4 bytes 
 typedef int								Int;							// 4 bytes 
 typedef unsigned int			UnsignedInt;	  	// 4 bytes 
@@ -480,4 +483,4 @@ struct RGBAColorInt
 
 };
 
-#endif // _BASE_TYPE_H_
+#endif

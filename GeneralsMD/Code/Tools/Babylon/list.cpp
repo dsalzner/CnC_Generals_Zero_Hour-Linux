@@ -22,7 +22,7 @@
 
 
 #include "stdAfx.h"
-#include <assert.h>
+//#include <assert.h>
 #include "list.h"
 
 ListNode::ListNode	( void )

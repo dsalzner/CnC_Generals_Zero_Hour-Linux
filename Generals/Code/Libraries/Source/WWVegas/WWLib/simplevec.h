@@ -55,8 +55,7 @@
 #define SIMPLEVEC_H
 
 #include "always.h"
-#include <assert.h>
-#include <string.h>		// for memmove
+//#include <assert.h>
 
 //#include "vector.h"
 #include "pluglib/Vector.H"

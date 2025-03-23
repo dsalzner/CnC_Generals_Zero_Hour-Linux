@@ -39,7 +39,7 @@
 #include "StringConvert.h"
 #include <string.h>
 #include <stdlib.h>
-#include <assert.h>
+//#include <assert.h>
 
 // Convert character to lowercase
 template<typename T> T CharToLower(const T ch)

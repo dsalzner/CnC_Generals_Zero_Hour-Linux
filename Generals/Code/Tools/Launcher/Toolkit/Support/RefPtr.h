@@ -71,7 +71,7 @@
 #include "VisualC.h"
 #include "RefCounted.h"
 #include <stddef.h>
-#include <assert.h>
+//#include <assert.h>
 
 template<typename Type> class RefPtr;
 template<typename Type> class RefPtrConst;

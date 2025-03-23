@@ -22,7 +22,7 @@
 // JeffB 7/5/00
 //
 
-#include <assert.h>
+//#include <assert.h>
 #include <windows.h>
 #include <winreg.h>
 //#include "always.h"

@@ -41,7 +41,7 @@
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 #include "matrix4.h"
-#include <assert.h>
+//#include <assert.h>
 
 /***********************************************************************************************
  * Matrix4x4::Multiply -- Multiply two Matrix4x4's together                                        *

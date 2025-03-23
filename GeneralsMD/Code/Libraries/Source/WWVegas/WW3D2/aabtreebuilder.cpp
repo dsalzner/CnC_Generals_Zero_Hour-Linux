@@ -62,7 +62,7 @@
 #include "w3d_file.h"
 #include <stdlib.h>
 #include <string.h>
-#include <assert.h>
+//#include <assert.h>
 
 #undef WWASSERT
 #define WWASSERT	assert					// can't use WWASSERT because we use this module in the MAX plugin...

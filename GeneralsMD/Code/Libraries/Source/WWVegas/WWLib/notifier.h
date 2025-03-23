@@ -50,7 +50,7 @@
 #pragma warning(pop)
 #endif
 
-#include <assert.h>
+//#include <assert.h>
 
 template<typename Event> class Notifier;
 template<typename Event> class Observer;

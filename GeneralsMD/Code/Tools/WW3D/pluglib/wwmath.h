@@ -44,7 +44,7 @@
 
 #include "always.h"
 #include <math.h>
-#include <assert.h>
+//#include <assert.h>
 
 /*
 ** Some global constants.

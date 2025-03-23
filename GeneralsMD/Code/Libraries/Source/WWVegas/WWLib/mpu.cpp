@@ -39,7 +39,7 @@
 #include	"win.h"
 #include	"mpu.h"
 #include "math.h"
-#include <assert.h>
+//#include <assert.h>
 
 typedef union {
 	LARGE_INTEGER LargeInt;

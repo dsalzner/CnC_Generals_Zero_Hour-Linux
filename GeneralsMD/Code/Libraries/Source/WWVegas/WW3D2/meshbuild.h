@@ -50,7 +50,7 @@
 #include "vector3.h"
 #include "bittype.h"
 
-#include <assert.h>
+//#include <assert.h>
 
 /*
 ** WorldInfoClass

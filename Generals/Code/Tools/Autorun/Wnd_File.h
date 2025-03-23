@@ -52,7 +52,7 @@
 #include <sys/types.h>
 #include <ctype.h>
 #include <stdlib.h>
-#include <assert.h>
+//#include <assert.h>
 
 #define BOOL						int
 #define ASSERT(x)  		assert(x)

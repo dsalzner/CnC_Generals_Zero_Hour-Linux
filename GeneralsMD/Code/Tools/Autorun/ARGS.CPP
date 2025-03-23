@@ -36,7 +36,7 @@
 #define  STRICT
 #include <windows.h>
 #include <windowsx.h>
-#include <assert.h>
+//#include <assert.h>
 #include <stdio.h>
 #include <string.h>
 

@@ -50,7 +50,7 @@ that don't belong to them, etc...
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <assert.h>
+//#include <assert.h>
 #include <new.h>
 #include <math.h>
 

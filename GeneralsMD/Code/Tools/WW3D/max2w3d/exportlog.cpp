@@ -43,7 +43,7 @@
 
 #include "exportlog.h"
 #include "logdlg.h"
-#include <assert.h>
+//#include <assert.h>
 
 
 /*

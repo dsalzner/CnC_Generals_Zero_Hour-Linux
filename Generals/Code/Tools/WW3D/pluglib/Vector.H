@@ -54,11 +54,11 @@
 #define VECTOR_H
 
 #include	"noinit.h"
-#include	<assert.h>
-#include	<new.h>
-#include	<string.h>
-#include	<stddef.h>
-#include	<stdlib.h>
+//#include	<assert.h>
+//#include	<new.h>
+//#include	<string.h>
+//#include	<stddef.h>
+//#include	<stdlib.h>
 
 
 /**************************************************************************

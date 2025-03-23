@@ -20,7 +20,7 @@
 #include "DownloadDebug.h"
 #include "Download.h"
 #include <mmsystem.h>
-#include <assert.h>
+//#include <assert.h>
 #include <direct.h>
 #include <stdlib.h>
 #include <stdio.h>

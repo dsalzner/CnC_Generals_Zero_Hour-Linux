@@ -35,7 +35,7 @@
 #include <windows.h>
 #include <shellapi.h>
 #include <stdio.h>
-#include <assert.h>
+//#include <assert.h>
 
 /******************************************************************************
 *

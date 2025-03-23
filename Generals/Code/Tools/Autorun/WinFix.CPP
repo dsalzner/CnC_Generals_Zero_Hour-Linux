@@ -43,7 +43,7 @@
 
 //#include <commctrl.h>
 //#include <winuser.h>
-#include <assert.h>
+//#include <assert.h>
 #include <stdio.h>
 #include "winfix.h"
 #include "wnd_file.h"

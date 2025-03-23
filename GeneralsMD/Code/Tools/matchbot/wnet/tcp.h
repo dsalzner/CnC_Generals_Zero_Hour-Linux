@@ -29,7 +29,7 @@ TCP                   Neal Kettler        neal@westwood.com
 #include <ctype.h>
 #include <errno.h>
 #include <string.h>
-#include <assert.h>
+//#include <assert.h>
 
 #ifdef _WINDOWS
 

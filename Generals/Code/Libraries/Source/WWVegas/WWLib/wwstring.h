@@ -41,13 +41,16 @@
 #ifndef __WWSTRING_H
 #define __WWSTRING_H
 
-#include <cstring>
+//#include <cstring>
 
 #include "always.h"
 #include "mutex.h"
-#include <string.h>
-#include <stdarg.h>
-#include <tchar.h>
+//#include <string.h>
+//#include <stdarg.h>
+//#include <tchar.h>
+
+#include "stlport/string.h"
+
 #include <wwdebug.h>
 #ifdef _UNIX
 #include "osdep.h"

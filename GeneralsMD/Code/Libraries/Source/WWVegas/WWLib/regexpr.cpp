@@ -21,7 +21,7 @@
 #include "always.h"
 #include "regexpr.h"
 #include "wwstring.h"
-#include <assert.h>
+//#include <assert.h>
 
 // Pull in the gnu_regex library's definitions.
 #define __STDC__ 1

@@ -52,7 +52,7 @@
 #include "texfcach.h"
 #include "mutex.h"
 #include "thread.h"
-#include <assert.h>
+//#include <assert.h>
 #include "wwdebug.h"
 #include "simplevec.h"
 #include "wwstring.h"

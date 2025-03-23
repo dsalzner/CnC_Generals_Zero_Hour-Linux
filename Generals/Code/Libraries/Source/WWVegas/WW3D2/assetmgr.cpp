@@ -73,7 +73,7 @@
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 #include "assetmgr.h"
-#include <assert.h>
+//#include <assert.h>
 
 #include "bittype.h"
 #include "chunkio.h"

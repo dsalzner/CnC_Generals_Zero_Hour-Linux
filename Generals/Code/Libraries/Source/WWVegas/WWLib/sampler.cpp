@@ -49,7 +49,7 @@
 #include "sampler.h"
 #include "RANDOM.H"
 #include <math.h>
-#include <assert.h>
+//#include <assert.h>
 #include <memory.h>
 
 Random4Class Random;
